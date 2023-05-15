@@ -1,65 +1,81 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "fRPC",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
-  },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+    "primary": "#AB1CFC",
+    "light": "#C854FF",
+    "dark": "#9015D9",
+    "ultraLight": "#F8EEFE",
+    "ultraDark": "#6A06A5",
+    "background": {
+      "dark": "#121212"
+    },
+    "anchors": {
+      "from": "#7C34FF",
+      "to": "#FE9195"
     }
-  ],
+  },
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "type": "github",
+    "url": "https://github.com/loopholelabs/frpc-go"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
+      "name": "Discord",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://loopholelabs.io/discord"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/loopholelabs/frpc-go"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Welcome",
+      "pages": ["introduction"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Getting Started",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "getting-started/overview",
+        "getting-started/quick-start",
+        "getting-started/concepts",
+        "getting-started/architecture",
+        "getting-started/roadmap"
+      ]
+    },
+    {
+      "group": "Performance",
+      "pages": [
+        "performance/optimizations",
+        "performance/grpc-benchmarks",
+        "performance/twirp-benchmarks"
+      ]
+    },
+    {
+      "group": "Reference",
+      "pages": [
+        "reference/overview",
+        "reference/client-methods",
+        "reference/server-methods"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://loopholelabs.io/discord",
+    "github": "https://github.com/loopholelabs/frpc-go"
+  },
+  "backgroundImage": "/images/lightbackground.png",
+  "analytics": {
+    "posthog": {
+      "apiKey": "phc_WfWunxGOdcI7urnQA4XolSTSisVIh9NI38jTbg2TshT",
+      "apiHost": "https://data.frpc.io"
+    }
   }
 }
