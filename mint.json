@@ -12,6 +12,10 @@
     "background": {
       "light": "#cdf1fd",
       "dark": "#121212"
+    },
+    "anchors": {
+      "from": "#7C34FF",
+      "to": "#FE9195"
     }
   },
   "anchors": [
@@ -55,35 +59,7 @@
     },
     {
       "group": "Online Forms",
-      "pages": [
-        {
-          "group": "Domain",
-          "pages": [
-            "Online-Forms/Domain/Search",
-            "Online-Forms/Domain/Register",
-            "Online-Forms/Domain/Modify",
-            "Online-Forms/Domain/Renew",
-            "Online-Forms/Domain/Delete",
-            "Online-Forms/Domain/Add-Information",
-            "Online-Forms/Domain/Add-Documentation"
-          ]
-        },
-        {
-          "group": "Contacts",
-          "pages": [
-            "Online-Forms/Contacts/Create",
-            "Online-Forms/Contacts/Modify"
-          ]
-        },
-        {
-          "group": "Hosting",
-          "pages": [
-            "Online-Forms/Hosting/Add",
-            "Online-Forms/Hosting/Modify",
-            "Online-Forms/Hosting/Renew"
-          ]
-        }
-      ]
+      "pages": [ "Online-Forms/Domain/Domain", "Online-Forms/Contacts/Contacts", "Online-Forms/Hosting/Hosting"]
     },
     {
       "group": "Portfolio",
