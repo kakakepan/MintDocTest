@@ -8,7 +8,7 @@
   "colors": {
     "primary": "#dc9727",
     "light": "#dc9727",
-    "dark": "#00ade5",
+    "dark": "#dc9727",
     "background": {
       "light": "#00ade5",
       "dark": "#121212"
