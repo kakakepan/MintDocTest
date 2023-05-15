@@ -7,7 +7,7 @@
   "favicon": "/domainfavicon.png",
   "colors": {
     "primary": "#dc9727",
-    "light": "#00ade5",
+    "light": "#dc9727",
     "dark": "#00ade5",
     "background": {
       "light": "#00ade5",
