@@ -4,7 +4,7 @@
     "light": "/logo/domainlogo.png",
     "dark": "/logo/domainlogo.png"
   },
-  "favicon": "/domainfavicon.png",
+  "favicon": "/logo/domainfavicon.png",
   "colors": {
     "primary": "#dc9727",
     "light": "#dc9727",
@@ -137,11 +137,5 @@
   "footerSocials": {
     "facebook": "https://www.facebook.com/registerdom/",
     "twitter": "https://twitter.com/RegisterDom"
-  },
-  "analytics": {
-    "posthog": {
-      "apiKey": "phc_WfWunxGOdcI7urnQA4XolSTSisVIh9NI38jTbg2TshT",
-      "apiHost": "https://data.frpc.io"
-    }
   }
 }
