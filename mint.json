@@ -34,23 +34,23 @@
   "navigation": [
     {
       "group": "Welcome",
-      "pages": ["Welcome/Homepage", "Welcome/Overview", "Welcome/Key-Elements"]
+      "pages": ["welcome/Homepage", "welcome/Overview", "welcome/Key-Elements"]
     },
     {
       "group": "Knowledge Base",
       "pages": [
-        "Knowledge Base/Processes",
-        "Knowledge Base/Services",
-        "Knowledge Base/Use Cases",
-        "Knowledge Base/Webhooks"
+        "knowledgebase/Processes",
+        "knowledgebase/Services",
+        "knowledgebase/UseCases",
+        "knowledgebase/Webhooks"
       ]
     },
     {
       "group": "Reseller Admin Panel",
       "pages": [
-        "Reseller Admin Panel/Signup",
-        "Reseller Admin Panel/List of Resellers",
-        "Reseller Admin Panel/Forgot Password"
+        "reselleradminpanel/Signup",
+        "reselleradminpanel/ListofResellers",
+        "reselleradminpanel/ForgotPassword"
       ]
     },
     {
@@ -59,28 +59,28 @@
         {
           "group": "Domain",
           "pages": [
-            "Online Forms/Domain/Search",
-            "Online Forms/Domain/Register",
-            "Online Forms/Domain/Modify",
-            "Online Forms/Domain/Renew",
-            "Online Forms/Domain/Delete",
-            "Online Forms/Domain/Add Information",
-            "Online Forms/Domain/Add Documentation"
+            "onlineforms/Domain/Search",
+            "onlineforms/Domain/Register",
+            "onlineforms/Domain/Modify",
+            "onlineforms/Domain/Renew",
+            "onlineforms/Domain/Delete",
+            "onlineforms/Domain/AddInformation",
+            "onlineforms/Domain/AddDocumentation"
           ]
         },
         {
           "group": "Contacts",
           "pages": [
-            "Online Forms/Contacts/Create",
-            "Online Forms/Contacts/Modify"
+            "onlineforms/Contacts/Create",
+            "onlineforms/Contacts/Modify"
           ]
         },
         {
           "group": "Hosting",
           "pages": [
-            "Online Forms/Hosting/Add",
-            "Online Forms/Hosting/Modify",
-            "Online Forms/Hosting/Renew"
+            "onlineforms/Hosting/Add",
+            "onlineforms/Hosting/Modify",
+            "onlineforms/Hosting/Renew"
           ]
         }
       ]
@@ -91,47 +91,47 @@
         {
           "group": "Domains",
           "pages": [
-            "Portfolio/Domains/Active",
-            "Portfolio/Domains/Inactive",
-            "Portfolio/Domains/Hosts",
-            "Portfolio/Domains/Pending"
+            "portfolio/Domains/Active",
+            "portfolio/Domains/Inactive",
+            "portfolio/Domains/Hosts",
+            "portfolio/Domains/Pending"
           ]
         },
         {
           "group": "Hosting",
-          "pages": ["Portfolio/Hosting/Active", "Portfolio/Hosting/Inactive"]
+          "pages": ["portfolio/Hosting/Active", "portfolio/Hosting/Inactive"]
         },
         {
           "group": "Contacts",
-          "pages": ["Portfolio/Contacts/Contacts"]
+          "pages": ["portfolio/Contacts/Contacts"]
         }
       ]
     },
     {
       "group": "Accounting",
       "pages": [
-        "Accounting/Service Orders",
-        "Accounting/Invoices",
-        "Accounting/Statements",
-        "Accounting/Domain Service Prices",
-        "Accounting/Hosting Service Prices"
+        "accounting/ServiceOrders",
+        "accounting/Invoices",
+        "accounting/Statements",
+        "accounting/DomainServicePrices",
+        "accounting/HostingServicePrices"
       ]
     },
     {
       "group": "API Integration",
       "pages": [
         "API/Guides",
-        "API/Return Codes",
-        "API/Swagger UI",
-        "API/Swagger UI V2",
-        "API/Request Logs",
-        "API/Webhook Setup",
-        "API/Webhook Logs"
+        "API/ReturnCodes",
+        "API/SwaggerUI",
+        "API/SwaggerUIV2",
+        "API/RequestLogs",
+        "API/WebhookSetup",
+        "API/WebhookLogs"
       ]
     },
     {
       "group": "Support",
-      "pages": ["Support/Contact Management", "Support/FAQs"]
+      "pages": ["support/ContactManagement", "support/FAQs"]
     }
   ],
   "footerSocials": {
