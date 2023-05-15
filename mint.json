@@ -8,9 +8,9 @@
   "colors": {
     "primary": "#dc9727",
     "light": "#dc9727",
-    "dark": "#dc9727",
+    "dark": "#00ade5",
     "background": {
-      "light": "#00ade5",
+      "light": "#cdf1fd",
       "dark": "#121212"
     }
   },
@@ -137,5 +137,6 @@
   "footerSocials": {
     "facebook": "https://www.facebook.com/registerdom/",
     "twitter": "https://twitter.com/RegisterDom"
-  }
+  },
+  "backgroundImage": "/images/lightbackground.png"
 }
