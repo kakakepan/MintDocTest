@@ -1,40 +1,34 @@
 {
   "name": "Domain Register",
   "logo": {
-    "light": "/logo/image.png",
-    "dark": "/logo/image.png"
+    "light": "/logo/domainlogo.png",
+    "dark": "/logo/domainlogo.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/domainfavicon.png",
   "colors": {
-    "primary": "#8dbc0b",
-    "light": "#8dbc0b",
-    "dark": "#8dbc0b",
-    "ultraLight": "#F8EEFE",
-    "ultraDark": "#6A06A5",
+    "primary": "#dc9727",
+    "light": "#00ade5",
+    "dark": "#00ade5",
     "background": {
-      "light": "#c6defe",
+      "light": "#00ade5",
       "dark": "#121212"
-    },
-    "anchors": {
-      "from": "#7C34FF",
-      "to": "#FE9195"
     }
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "https://mintlify.com"
+      "name": "Facebook",
+      "icon": "facebook",
+      "url": "https://www.facebook.com/registerdom/"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/RegisterDom"
     },
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Contact Us",
+      "icon": "phone-rotary",
+      "url": "https://register.domains/en/contact-us"
     }
   ],
   "navigation": [
@@ -141,10 +135,9 @@
     }
   ],
   "footerSocials": {
-    "discord": "https://loopholelabs.io/discord",
-    "github": "https://github.com/loopholelabs/frpc-go"
+    "facebook": "https://www.facebook.com/registerdom/",
+    "twitter": "https://twitter.com/RegisterDom"
   },
-  "backgroundImage": "/images/lightbackground.png",
   "analytics": {
     "posthog": {
       "apiKey": "phc_WfWunxGOdcI7urnQA4XolSTSisVIh9NI38jTbg2TshT",
