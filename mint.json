@@ -59,7 +59,40 @@
     },
     {
       "group": "Online Forms",
-      "pages": [ "Online-Forms/Domain/Domain", "Online-Forms/Contacts/Contacts", "Online-Forms/Hosting/Hosting"]
+      "pages": [
+        {
+          "group": "Domain",
+          "pages": [
+            "Online-Forms/Domain/Domain",
+            "Online-Forms/Domain/Search",
+            "Online-Forms/Domain/Register",
+            "Online-Forms/Domain/Modify",
+            "Online-Forms/Domain/Renew",
+            "Online-Forms/Domain/Delete",
+            "Online-Forms/Domain/Add-Information",
+            "Online-Forms/Domain/Add-Documentation",
+            "Online-Forms/Domain/Create",
+            "Online-Forms/Domain/ModifyHost"
+          ]
+        },
+        {
+          "group": "Contacts",
+          "pages": [
+            "Online-Forms/Contacts/Contacts",
+            "Online-Forms/Contacts/Create",
+            "Online-Forms/Contacts/Modify"
+          ]
+        },
+        {
+          "group": "Hosting",
+          "pages": [
+            "Online-Forms/Hosting/Hosting",
+            "Online-Forms/Hosting/Add",
+            "Online-Forms/Hosting/Modify",
+            "Online-Forms/Hosting/Renew"
+          ]
+        }
+      ]
     },
     {
       "group": "Portfolio",
