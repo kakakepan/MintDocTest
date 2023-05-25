@@ -38,7 +38,7 @@
   "navigation": [
     {
       "group": "Welcome",
-      "pages": ["Welcome/Homepage", "Welcome/Key-Elements"]
+      "pages": ["Welcome/Homepage", "Welcome/Overview", "Welcome/Key-Elements"]
     },
     {
       "group": "Command Groups",
@@ -55,7 +55,6 @@
         {
           "group": "Contacts",
           "pages": [
-            "commandgroup/contacts/contact",
             "commandgroup/contacts/create"
           ]
         }

@@ -1,7 +1,95 @@
 ---
 title: "Overview"
 sidebarTitle: "Overview"
-mode: "wide"
 ---
 
-Online Forms is a comprehensive dashboard feature that aids users in efficiently managing various aspects of their domain, such as domain-related contacts and hosting. It empowers resellers to create and personalize domain information tailored to their website. Additionally, resellers can effortlessly oversee website hosting and associated settings through this user-friendly interface.
+The **"Process Overview"** option within the **"Knowledge Base"** provides a framework for managing domains, contacts, hosting, and requests, with distinct categories of commands and various statuses to track the progress and execution of different operations. It involves several key steps in managing domains, contacts, hosting, requests, and related operations. The general description of the process is mentioned in the steps below:
+
+# Command Groups
+
+Within the **"Process Overview"** option, the **"Command groups"** are categorized as sets of commands that enable the structured management and execution of operations related to domains, contacts, hosting, and requests. Each group focuses on a specific management aspect, simplifying locating and utilizing the required commands within the domain service ecosystem. The commands are grouped into categories such as **"Domains"**, **"Contact"**, **"Hosting"**, and **"Requests"**, based on their respective functions and purposes as stated underneath
+
+| Group    | Description                             |
+| :------- | :-------------------------------------- |
+| Domains  | Commands related to domain management.  |
+| Contact  | Commands related to contact management. |
+| Hosting  | Commands related to hosting management. |
+| Requests | Commands related to command requests.   |
+
+The command groups can be further categorized into two categories of commands:
+
+| Commands Category    | Description                                                                  |
+| :------------------- | :--------------------------------------------------------------------------- |
+| Information Commands | Display information about an object, for example command **“StatusDomain”**. |
+| Execution Commands   | Create, modify or delete an object, for example **“CreateDomain”**.          |
+
+
+# Domain Requests
+
+Within the **"Process Overview"** option, the **"Domain Requests"** are used to generate a unique **"Request Id"** when running an **"Execution Command"** for a domain via API or web form. This **"Domain Request"** tracks the command's execution. The Request Id is associated with different **"Request Statuses"** that indicate the progress and outcome of the command, including **"In Process"**, **"Pending"**, **"Successful"**, or **"Cancelled"**. This Request Id and its corresponding status are essential for effectively monitoring and managing domain-related operations.
+
+| Status     | Description                            |
+| :--------- | :------------------------------------- |
+| In Process | The request is being executed.         |
+| Pending    | Additional information is required.    |
+| Successful | The request was successfully executed. |
+| Cancelled  | The request was cancelled.             |
+
+
+
+# Domain Portfolio
+
+Within the **"Process Overview"** option, the **"Domain Portfolio"** is the compilation of domain names owned by an individual. It is established by utilizing commands like **"RegisterDomain" **or **"TransferInDomain"**. All operations related to modifying or renewing domains are linked to a specific Domain Portfolio. Each Domain Portfolio is assigned a creation date and an expiration date, along with various statuses that reflect its current condition.
+
+| Status              | Description                                                      |
+| :------------------ | :--------------------------------------------------------------- |
+| In Process          | The domain portfolio has been created but is not active.         |
+| Registered          | The domain is registered with an assigned expiration date.       |
+| Soon to Expire      | The domain will soon expire.                                     |
+| Expired-Recoverable | The domain has expired, but it is possible to restore and renew. |
+| Expired             | The domain has expired and cannot be renewed.                    |
+
+
+
+# Contact Requests
+
+Within the **"Process Overview"** option, the **"Contact Requests"** refers to the actions or operations initiated by executing contact requests within a domain service.  Contact requests track the execution and progress of the requested action, providing information about its status, such as whether it is **"In Process"**, **"Pending"**, **"Successful Executed"**, or **"Cancelled"**.
+
+| Status     | Description                            |
+| :--------- | :------------------------------------- |
+| In Process | The request is being executed.         |
+| Successful | The request was successfully executed. |
+| Cancelled  | The request was cancelled.             |
+
+
+
+# Contact Portfolio
+
+Within the **"Process Overview"** option, the **"Contact Portfolio"** represents the contact information associated with domains. It can be created and modified through specific commands, with statuses indicating its usability.
+
+| Status   | Description                  |
+| :------- | :--------------------------- |
+| Active   | The contact can be used.     |
+| Inactive | The contact can not be used. |
+
+
+
+# Service Orders
+
+Within the **"Process Overview"** option, the **"Service Orders"** for domain registration are triggered when a paid service executes a command. They help with the accounting process and can have different statuses, such as In Process, Cancelled, or Invoiced.
+
+| Status     | Description                                                       |
+| :--------- | :---------------------------------------------------------------- |
+| In Process | The service order has been created but is not active.             |
+| Cancelled  | The service order has been cancelled.                             |
+| Invoiced   | The service order has been completed and an invoice is generated. |
+
+
+
+# Webhooks
+
+Within the **"Process Overview"** option, the **"Webhooks"** enable users to receive real-time notifications for successful domain registrations or transfers requested through **"RegisterDomains"** or **"TransferDomain"**. Users can stay updated by configuring a webhook with a designated URL containing placeholders for the domain name and expiration date (YYYY-MM-DD format). Webhooks are triggered for not immediately activated domains (response code: 201 or 202). If a domain is registered in real-time, the webhook won't trigger, and domain information can be obtained from the same API. Setting up webhooks is optional, as the domain status can be checked using the **"Status API command"**. Webhook setup can be accessed by clicking [here](https://superreseller-qa.nominus.host/webhook/resellers/manage). Webhook logs are available to track webhook activity, accessible [here](https://superreseller-qa.nominus.host/webhook/resellers/log).  
+
+# Process Diagram
+
+Within the **"Process Overview"** option, the **"Process Diagram"** is a visual representation that illustrates the sequential flow of activities and steps involved in the **"Register.domains"**or workflow. It provides a clear and structured overview of tasks, their interdependencies, and the overall progression from start to finish. The process diagram is accessible by clicking [here](https://superreseller-qa.nominus.host/kb/pages/process-overview), allowing users to view and analyze the diagram in detail.
