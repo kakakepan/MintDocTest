@@ -32,7 +32,7 @@
     {
       "name": "Contact Us",
       "icon": "phone-rotary",
-      "url": "https://register.domains/en/contact-us"
+      "url": "https://www.marcaria.com/ws/en/contact-us"
     }
   ],
   "navigation": [
@@ -41,119 +41,40 @@
       "pages": ["Welcome/Homepage", "Welcome/Key-Elements"]
     },
     {
-      "group": "Reseller Admin Panel",
+      "group": "Command Groups",
       "pages": [
-        "Reseller-Admin-Panel/Overview",
-        "Reseller-Admin-Panel/Signup",
-        "Reseller-Admin-Panel/List-of-Resellers",
-        "Reseller-Admin-Panel/Forgot-Password"
+        "commandgroup/overview",
+        "commandgroup/domains",
+        "commandgroup/contact",
+        "commandgroup/hosting"
       ]
     },
     {
-      "group": "Online Forms",
-      "pages": [ "Online-Forms/Access-Online-Forms",
-        {
-          "group": "Domain",
-          "pages": [
-            "Online-Forms/Domain/Domain",
-            "Online-Forms/Domain/Search",
-            "Online-Forms/Domain/Register",
-            "Online-Forms/Domain/Modify",
-            "Online-Forms/Domain/Renew",
-            "Online-Forms/Domain/Delete",
-            "Online-Forms/Domain/Add-Information",
-            "Online-Forms/Domain/Add-Documentation",
-            "Online-Forms/Domain/Create",
-            "Online-Forms/Domain/ModifyHost"
-          ]
-        },
-        {
-          "group": "Contacts",
-          "pages": [
-            "Online-Forms/Contacts/Contacts",
-            "Online-Forms/Contacts/Create",
-            "Online-Forms/Contacts/Modify"
-          ]
-        },
-        {
-          "group": "Hosting",
-          "pages": [
-            "Online-Forms/Hosting/Hosting",
-            "Online-Forms/Hosting/Add",
-            "Online-Forms/Hosting/Modify",
-            "Online-Forms/Hosting/Renew"
-          ]
-        }
-      ]
+      "group": "Domain Requests",
+      "pages": ["domainrequests/overview"]
     },
     {
-      "group": "Portfolio",
-      "pages": [ "Portfolio/Access-Portofolio",
-        {
-          "group": "Domains",
-          "pages": [
-            "Portfolio/Domains/Domains",
-            "Portfolio/Domains/Active",
-            "Portfolio/Domains/Inactive",
-            "Portfolio/Domains/Hosts",
-            "Portfolio/Domains/Pending"
-          ]
-        },
-        {
-          "group": "Hosting",
-          "pages": ["Portfolio/Hosting/Hosting","Portfolio/Hosting/Active", "Portfolio/Hosting/Inactive"]
-        },
-        "Portfolio/Contacts/Contacts"
-
-      ]
+      "group": "Domain Portfolio",
+      "pages": ["domainportfolio/overview"]
     },
     {
-      "group": "Accounting",
+      "group": "Contact Requests",
       "pages": [ 
-        "Accounting/Access-Accounting",
-        "Accounting/Service-Orders",
-        "Accounting/Invoices",
-        "Accounting/Statements",
-        "Accounting/Domain-Service-Prices",
-        "Accounting/Hosting-Service-Prices"
-      ]
+        "contactrequests/overview"]
     },
     {
-      "group": "API Integration",
+      "group": "Contact Portfolio",
       "pages": [
-        "API/Overview",
-        "API/Guides",
-        "API/Return-Codes",
-        "API/Swagger-UI",
-        "API/Swagger-UI-V2",
-        "API/Request-Logs",
-        "API/Webhook-Setup",
-        "API/Webhook-Logs"
-      ]
+        "contactportfolio/overview"]
     },
     {
-      "group": "Knowledge Base",
+      "group": "Service Orders",
       "pages": [
-        "Knowledge-Base/Access-Knowledgebase",
-        "Knowledge-Base/Services",
-        "Knowledge-Base/Commands",
-        "Knowledge-Base/ccTLDs",
-        "Knowledge-Base/gTLDs",
-        "Knowledge-Base/Process-Overview",
-        "Knowledge-Base/Command-Requests",
-        "Knowledge-Base/Service-Requirements",
-        "Knowledge-Base/Contact-Management",
-        "Knowledge-Base/API-Connection",
-        "Knowledge-Base/Billing"
-      ]
+        "serviceorders/overview"]
     },
     {
-      "group": "Agreements",
-      "pages": ["Agreements/Overview","Agreements/General-Terms","Agreements/TLDs-Terms"]
-    },
-    {
-      "group": "Support",
-      "pages": ["Support/Contact-Us","Support/FAQs"]
+      "group": "Webhook",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
     }
   ],
   "footerSocials": {
