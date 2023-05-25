@@ -38,20 +38,12 @@
   "navigation": [
     {
       "group": "Welcome",
-      "pages": ["Welcome/Homepage", "Welcome/Overview", "Welcome/Key-Elements"]
-    },
-    {
-      "group": "Knowledge Base",
-      "pages": [
-        "Knowledge-Base/Processes",
-        "Knowledge-Base/Services",
-        "Knowledge-Base/Use-Cases",
-        "Knowledge-Base/Webhooks"
-      ]
+      "pages": ["Welcome/Homepage", "Welcome/Key-Elements"]
     },
     {
       "group": "Reseller Admin Panel",
       "pages": [
+        "Reseller-Admin-Panel/Overview",
         "Reseller-Admin-Panel/Signup",
         "Reseller-Admin-Panel/List-of-Resellers",
         "Reseller-Admin-Panel/Forgot-Password"
@@ -59,7 +51,7 @@
     },
     {
       "group": "Online Forms",
-      "pages": [
+      "pages": [ "Online-Forms/Access-Online-Forms",
         {
           "group": "Domain",
           "pages": [
@@ -96,10 +88,11 @@
     },
     {
       "group": "Portfolio",
-      "pages": [
+      "pages": [ "Portfolio/Access-Portofolio",
         {
           "group": "Domains",
           "pages": [
+            "Portfolio/Domains/Domains",
             "Portfolio/Domains/Active",
             "Portfolio/Domains/Inactive",
             "Portfolio/Domains/Hosts",
@@ -108,17 +101,16 @@
         },
         {
           "group": "Hosting",
-          "pages": ["Portfolio/Hosting/Active", "Portfolio/Hosting/Inactive"]
+          "pages": ["Portfolio/Hosting/Hosting","Portfolio/Hosting/Active", "Portfolio/Hosting/Inactive"]
         },
-        {
-          "group": "Contacts",
-          "pages": ["Portfolio/Contacts/Contacts"]
-        }
+        "Portfolio/Contacts/Contacts"
+
       ]
     },
     {
       "group": "Accounting",
-      "pages": [
+      "pages": [ 
+        "Accounting/Access-Accounting",
         "Accounting/Service-Orders",
         "Accounting/Invoices",
         "Accounting/Statements",
@@ -129,6 +121,7 @@
     {
       "group": "API Integration",
       "pages": [
+        "API/Overview",
         "API/Guides",
         "API/Return-Codes",
         "API/Swagger-UI",
@@ -139,8 +132,28 @@
       ]
     },
     {
+      "group": "Knowledge Base",
+      "pages": [
+        "Knowledge-Base/Access-Knowledgebase",
+        "Knowledge-Base/Services",
+        "Knowledge-Base/Commands",
+        "Knowledge-Base/ccTLDs",
+        "Knowledge-Base/gTLDs",
+        "Knowledge-Base/Process-Overview",
+        "Knowledge-Base/Command-Requests",
+        "Knowledge-Base/Service-Requirements",
+        "Knowledge-Base/Contact-Management",
+        "Knowledge-Base/API-Connection",
+        "Knowledge-Base/Billing"
+      ]
+    },
+    {
+      "group": "Agreements",
+      "pages": ["Agreements/Overview","Agreements/General-Terms","Agreements/TLDs-Terms"]
+    },
+    {
       "group": "Support",
-      "pages": ["Support/Contact-Management", "Support/FAQs"]
+      "pages": ["Support/Contact-Us","Support/FAQs"]
     }
   ],
   "footerSocials": {
