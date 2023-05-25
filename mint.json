@@ -55,6 +55,7 @@
         {
           "group": "Contacts",
           "pages": [
+            "commandgroup/contacts/contact",
             "commandgroup/contacts/create"
           ]
         }
