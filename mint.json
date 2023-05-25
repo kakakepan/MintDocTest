@@ -1,16 +1,16 @@
 {
   "name": "Domain Register",
   "logo": {
-    "light": "/logo/domainlogo.png",
-    "dark": "/logo/domainlogo.png"
+    "light": "/logo/superresell.svg",
+    "dark": "/logo/superresell.svg"
   },
-  "favicon": "/logo/domainfavicon.png",
+  "favicon": "/logo/superresell.svg",
   "colors": {
-    "primary": "#dc9727",
-    "light": "#dc9727",
-    "dark": "#00ade5",
+    "primary": "#00A0F0",
+    "light": "#00A0F0",
+    "dark": "#676A6D",
     "background": {
-      "light": "#cdf1fd",
+      "light": "#D1FFFF",
       "dark": "#121212"
     },
     "anchors": {
