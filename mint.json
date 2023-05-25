@@ -72,8 +72,7 @@
           "group": "Domain Renewal",
           "pages": [
             "domainportfolio/renewal",
-            "domainportfolio/modify",
-            "domainportfolio/renew"
+            "domainportfolio/modify"
           ]
         }
       ]
