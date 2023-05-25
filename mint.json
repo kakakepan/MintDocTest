@@ -67,7 +67,16 @@
     },
     {
       "group": "Domain Portfolio",
-      "pages": ["domainportfolio/overview", "domainportfolio/renewal"]
+      "pages": ["domainportfolio/overview", 
+        {
+          "group": "Domain Renewal",
+          "pages": [
+            "domainportfolio/renewal",
+            "domainportfolio/modify",
+            "domainportfolio/renew"
+          ]
+        }
+      ]
     },
     {
       "group": "Contact Requests",
