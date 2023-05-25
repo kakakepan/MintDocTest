@@ -42,11 +42,23 @@
     },
     {
       "group": "Command Groups",
-      "pages": [
-        "commandgroup/overview",
-        "commandgroup/domains",
-        "commandgroup/contact",
-        "commandgroup/hosting"
+      "pages": [ "commandgroup/overview",
+        {
+          "group": "Domains",
+          "pages": [
+            "commandgroup/domains/domains",
+            "commandgroup/domains/register",
+            "commandgroup/domains/renew",
+            "commandgroup/domains/transfer"
+          ]
+        },
+        {
+          "group": "Contacts",
+          "pages": [
+            "commandgroup/contacts/contact",
+            "commandgroup/contacts/create"
+          ]
+        }
       ]
     },
     {
@@ -55,7 +67,7 @@
     },
     {
       "group": "Domain Portfolio",
-      "pages": ["domainportfolio/overview"]
+      "pages": ["domainportfolio/overview", "domainportfolio/renewal"]
     },
     {
       "group": "Contact Requests",
