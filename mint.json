@@ -59,62 +59,6 @@
         "domainrenewal/scheduledtasks",
         "domainrenewal/returncode"
       ]
-    },
-    {
-      "group": "Contacts - Updates - Trustee",
-      "pages": ["contacts/contacts"]
-    },
-    {
-      "group": "Balance of Funds - Reverse Webhook",
-      "pages": ["balance/overview"]
-    },
-    {
-      "group": "Hosts - Reseller View",
-      "pages": [ "host/overview"]
-    },
-    {
-      "group": "Auth Info - Set Commands",
-      "pages": ["auth/overview"]
-    },
-    {
-      "group": "API Second Dev",
-      "pages": ["apidev/overview"]
-    },
-    {
-      "group": "Account - Security",
-      "pages": ["account/overview"]
-    },
-    {
-      "group": "Balance - API Limits",
-      "pages": ["apilimit/overview"]
-    },
-    {
-      "group": "Dashboard - Domain Prices",
-      "pages": ["dashboard/overview"]
-    },
-    {
-      "group": "Reconver Pass - Post Webhook",
-      "pages": ["reconver/overview"]
-    },
-    {
-      "group": "Reuse Fields - Signup Process",
-      "pages": ["reuse/overview"]
-    },
-    {
-      "group": "Validations",
-      "pages": ["validations/overview"]
-    },
-    {
-      "group": "Improvement to Requests",
-      "pages": ["improvement/overview"]
-    },
-    {
-      "group": "Private Registration",
-      "pages": ["private/overview"]
-    },
-    {
-      "group": "Register Domain and Create Contacts",
-      "pages": ["register/overview"]
     }
   ],
   "footerSocials": {
