@@ -54,7 +54,6 @@
         },
         "domainrenewal/registrationpolicy",
         "domainrenewal/newdomainextensions",
-        "domainrenewal/considerations",
         "domainrenewal/emailprocessing",
         "domainrenewal/scheduledtasks",
         "domainrenewal/returncode"
