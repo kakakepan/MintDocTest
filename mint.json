@@ -44,12 +44,10 @@
       "group": "Domain Renewal",
       "pages": [ "domainrenewal/renewal",
         {
-          "group": "Domains",
+          "group": "Renewal Commands",
           "pages": [
-            "commandgroup/domains/domains",
-            "commandgroup/domains/register",
-            "commandgroup/domains/renew",
-            "commandgroup/domains/transfer"
+            "domainportfolio/renewal",
+            "domainportfolio/modify"
           ]
         },
         {
