@@ -41,8 +41,8 @@
       "pages": ["Welcome/Homepage", "Welcome/Overview", "Welcome/Key-Elements"]
     },
     {
-      "group": "Command Groups",
-      "pages": [ "commandgroup/overview",
+      "group": "Domain Renewal",
+      "pages": [ "domainrenewal/renewal",
         {
           "group": "Domains",
           "pages": [
