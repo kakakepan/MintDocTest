@@ -48,13 +48,13 @@
           "pages": [
             "domainrenewal/overview",
             "domainportfolio/modify",
-            "domainportfolio/renew"
+            "domainportfolio/renew",
+            "domainrenewal/setautorenew"
           ]
         },
         "domainrenewal/registrationpolicy",
         "domainrenewal/newdomainextensions",
         "domainrenewal/considerations",
-        "domainrenewal/setautorenew",
         "domainrenewal/emailprocessing",
         "domainrenewal/scheduledtasks",
         "domainrenewal/returncode"
