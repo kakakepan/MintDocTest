@@ -53,7 +53,8 @@
         },
         "domainrenewal/registrationpolicy",
         "domainrenewal/newdomainextensions",
-        "domainrenewal/considerations"
+        "domainrenewal/considerations",
+        "domainrenewal/setautorenew"
       ]
     },
     {
