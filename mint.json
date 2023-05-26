@@ -62,8 +62,7 @@
             "domainrenewal/registrationpolicy",
             "domainrenewal/newdomainextensions",
             "domainrenewal/emailprocessing",
-            "domainrenewal/scheduledtasks",
-            "domainrenewal/returncode"
+            "domainrenewal/scheduledtasks"
           ]
         }
       ]
@@ -82,7 +81,7 @@
     },
     {
       "group": "API",
-      "pages": ["apilimit/overview"]
+      "pages": ["apilimit/overview", "domainrenewal/returncode"]
     },
     {
       "group": "Webhook",
