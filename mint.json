@@ -66,66 +66,55 @@
     },
     {
       "group": "Balance of Funds - Reverse Webhook",
-      "pages": ["domainportfolio/overview", 
-        {
-          "group": "Domain Renewal",
-          "pages": [
-            "domainportfolio/renewal",
-            "domainportfolio/modify"
-          ]
-        }
-      ]
+      "pages": ["balance/overview"]
     },
     {
       "group": "Hosts - Reseller View",
-      "pages": [ 
-        "contactrequests/overview"]
+      "pages": [ "host/overview"]
     },
     {
       "group": "Auth Info - Set Commands",
-      "pages": [
-        "contactportfolio/overview"]
+      "pages": ["auth/overview"]
     },
     {
       "group": "API Second Dev",
-      "pages": [
-        "serviceorders/overview"]
+      "pages": ["api/overview"]
     },
     {
       "group": "Account - Security",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["account/overview"]
     },
     {
       "group": "Balance - API Limits",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["apilimit/overview"]
     },
     {
       "group": "Dashboard - Domain Prices",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["dashboard/overview"]
     },
     {
       "group": "Reconver Pass - Post Webhook",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["reconver/overview"]
     },
     {
       "group": "Reuse Fields - Signup Process",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["reuse/overview"]
     },
     {
       "group": "Validations",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["validations/overview"]
     },
     {
       "group": "Improvement to Requests",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["improvement/overview"]
     },
     {
       "group": "Private Registration",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["private/overview"]
     },
     {
       "group": "Register Domain and Create Contacts",
-      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+      "pages": ["register/overview"]
     }
   ],
   "footerSocials": {
