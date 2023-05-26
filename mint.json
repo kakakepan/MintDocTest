@@ -55,7 +55,8 @@
         "domainrenewal/newdomainextensions",
         "domainrenewal/considerations",
         "domainrenewal/setautorenew",
-        "domainrenewal/emailprocessing"
+        "domainrenewal/emailprocessing",
+        "domainrenewal/scheduledtasks"
       ]
     },
     {
