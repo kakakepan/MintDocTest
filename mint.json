@@ -52,7 +52,8 @@
           ]
         },
         "domainrenewal/registrationpolicy",
-        "domainrenewal/newdomainextensions"
+        "domainrenewal/newdomainextensions",
+        "domainrenewal/considerations"
       ]
     },
     {
