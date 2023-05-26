@@ -56,11 +56,11 @@
       ]
     },
     {
-      "group": "Domain Requests",
+      "group": "Contacts - Updates - Trustee",
       "pages": ["domainrequests/overview"]
     },
     {
-      "group": "Domain Portfolio",
+      "group": "Balance of Funds - Reverse Webhook",
       "pages": ["domainportfolio/overview", 
         {
           "group": "Domain Renewal",
@@ -72,22 +72,54 @@
       ]
     },
     {
-      "group": "Contact Requests",
+      "group": "Hosts - Reseller View",
       "pages": [ 
         "contactrequests/overview"]
     },
     {
-      "group": "Contact Portfolio",
+      "group": "Auth Info - Set Commands",
       "pages": [
         "contactportfolio/overview"]
     },
     {
-      "group": "Service Orders",
+      "group": "API Second Dev",
       "pages": [
         "serviceorders/overview"]
     },
     {
-      "group": "Webhook",
+      "group": "Account - Security",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Balance - API Limits",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Dashboard - Domain Prices",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Reconver Pass - Post Webhook",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Reuse Fields - Signup Process",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Validations",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Improvement to Requests",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Private Registration",
+      "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
+    },
+    {
+      "group": "Register Domain and Create Contacts",
       "pages": ["webhooks/overview","webhooks/setup","webhooks/log"]
     }
   ],
