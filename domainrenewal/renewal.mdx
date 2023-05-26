@@ -3,34 +3,32 @@ title: "Overview"
 sidebarTitle: "Overview"
 ---
 
-The act of domain renewal is categorized as a modification and renewal, specifically pertaining to the dates of an existing domain portfolio. This is why we classify **"domain renewal"** as a **"modify"** command and a **"renew"** command. When a user submits a request for a domain renewal, it is our obligation to promptly process it. Consequently, we consider the request successful and proceed to invoice the service without delay. There are two ways for domain renewal:
+the automated process that facilitates the modification and extension of existing domain portfolios, ensuring timely renewal and avoidance of expiration.
+By leveraging the capabilities of the Superreseller domain management system, Superreseller provides efficient and reliable domain renewal services to its users.
+When a user submits a request for domain renewal through Superreseller, the system promptly processes the request to ensure a seamless and uninterrupted domain registration.
+Successful renewal requests are swiftly acknowledged, and the corresponding service is invoiced without delay, ensuring uninterrupted domain ownership and service continuity.
 
-<Note>
-**Important Points to Consider:**
-- The **"Registration Period"** field represents the maximum number of years a domain can be renewed.
-- The domain's expiration year is determined by the **"Registration Period"** value.  
-- If a reseller orders a domain for the maximum number of years, it cannot be renewed until the following year.
-- Before accepting a **"RenewDomain"** command, the system should check the domain's expiration year and the maximum value of **"Registration Period."**
-- If the number of years specified in the **"RenewDomain"** command exceeds the maximum supported value, display an error message stating that the command cannot be executed due to exceeding the maximum registration years for the extension.
-- Extensions with "**Explicit Renewal Always"** set to **"No"** have an additional restriction.  
-- Domains belonging to these extensions can only be renewed within 30 days of the **"Domain Expiration"** date.
-- If a user attempts to renew before the 30-day window, display an error message stating that the command cannot be executed because the renewal window opens 30 days before domain expiration.
-- When dealing with a domain in **"Expired - Recoverable"** status:
-- If the expiration date plus the **"Grace Period"** has not yet been reached, accept the renewal normally.
-- If the expiration date plus the **"Grace Period"** has already been reached, display a window message to the user.
-- The message should inform the user that the renewal date for the domain has passed but it can still be renewed with a late renewal fee for domain redemption.
-- The message should also specify the amount of the late renewal fee (e.g., $XX).
+## Main Principle of the Domain Renewal
+1. **Eligibility**: Only active domains can be renewed. (Special case for domains with the **"Expired-Recoverable"** status.)
+2. **Renewal Period**: Each domain extension has a specified renewal period.
+3. **Maximum Renewal Years**: Domains may be renewed for the maximum extension period of 10 years.
+4. **Renewal Command**: Users submit a **"RenewDomain"** and **"ModifyDomain"** command to request domain renewal.
+5. **Renewal Years**: Users choose the number of years to renew the domain for.
+6. **Pricing**: The cost of renewal is based on the selected renewal years.
+7. **Expiration Date Calculation**: The new expiration date is calculated by adding the renewal years to the current expiration date.
+8. **Notifications**: Users receive updates on the renewal process.
+
 </Note>
 <CardGroup>
   <Card
-    title="Modify a Domain"
+    title="Renewal Commands"
     icon="screwdriver-wrench"
     href="/domainportfolio/modify"
   >
     Modify a Domain.
   </Card>
   <Card
-    title="Renew a Domain"
+    title="Registration Policy"
     icon="hexagon-plus"
     href="/commandgroup/domains/renew"
   >
