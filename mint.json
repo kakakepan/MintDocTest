@@ -51,7 +51,8 @@
             "domainportfolio/renew"
           ]
         },
-        "domainrenewal/registrationpolicy"
+        "domainrenewal/registrationpolicy",
+        "domainrenewal/newdomainextensions"
       ]
     },
     {
