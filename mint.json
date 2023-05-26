@@ -41,6 +41,30 @@
       "pages": ["Welcome/Homepage", "Welcome/Overview", "Welcome/Key-Elements"]
     },
     {
+      "group": "Domains",
+      "pages": ["apidev/overview",
+        {
+          "group": "Domain Renewal",
+          "pages": [ "domainrenewal/renewal",
+            {
+              "group": "Renewal Commands",
+              "pages": [
+                "domainrenewal/overview",
+                "domainportfolio/modify",
+                "domainportfolio/renew",
+                "domainrenewal/setautorenew"
+              ]
+            },
+            "domainrenewal/registrationpolicy",
+            "domainrenewal/newdomainextensions",
+            "domainrenewal/emailprocessing",
+            "domainrenewal/scheduledtasks",
+            "domainrenewal/returncode"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Domain Renewal",
       "pages": [ "domainrenewal/renewal",
         {
@@ -58,6 +82,38 @@
         "domainrenewal/scheduledtasks",
         "domainrenewal/returncode"
       ]
+    },
+    {
+      "group": "Contacts",
+      "pages": ["contacts/contacts"]
+    },
+    {
+      "group": "Webhook",
+      "pages": ["balance/overview"]
+    },
+    {
+      "group": "Accounting",
+      "pages": [ "host/overview"]
+    },
+    {
+      "group": "Commands",
+      "pages": ["auth/overview"]
+    },
+    {
+      "group": "Domains",
+      "pages": ["apidev/overview"]
+    },
+    {
+      "group": "Dashboard",
+      "pages": ["account/overview"]
+    },
+    {
+      "group": "API",
+      "pages": ["apilimit/overview"]
+    },
+    {
+      "group": "Validations",
+      "pages": ["dashboard/overview"]
     }
   ],
   "footerSocials": {
