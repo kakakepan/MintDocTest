@@ -51,13 +51,7 @@
             "domainportfolio/renew"
           ]
         },
-        {
-          "group": "Contacts",
-          "pages": [
-            "commandgroup/contacts/contact",
-            "commandgroup/contacts/create"
-          ]
-        }
+        "domainrenewal/registrationpolicy"
       ]
     },
     {
