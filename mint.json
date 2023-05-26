@@ -78,7 +78,7 @@
     },
     {
       "group": "API Second Dev",
-      "pages": ["api/overview"]
+      "pages": ["apidev/overview"]
     },
     {
       "group": "Account - Security",
