@@ -46,8 +46,8 @@
         {
           "group": "Renewal Commands",
           "pages": [
-            "domainportfolio/renewal",
-            "domainportfolio/modify"
+            "domainportfolio/modify",
+            "domainportfolio/renew"
           ]
         },
         {
