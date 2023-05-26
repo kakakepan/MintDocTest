@@ -45,6 +45,8 @@ Once per day at 12:00 UTC, **"InformAboutExpirationRecoverable"** lists all doma
 Once per day at 12:00 UTC, **"InformAboutExpiration"** lists two types of domains:
 - Domains with the status **"Soon to Expire"** whose current **"Expiration Date"** matches the current date, and the sum of the **"Grace Period"** and **"Deletion Period"** is equal to 0 days or null.
 - Domains with the status **"Expired - Recoverable"** whose **"Expiration Date"** plus the **"Grace Period"** plus the **"Deletion Period"** is the same as or older than the current date.
+
+
 The task will update their status to **"Expired"**. This task sends an email informing the resellers about domains that have expired and can no longer be renewed. The email contains the following fields:
 
 | Field                | Description                                                         |
