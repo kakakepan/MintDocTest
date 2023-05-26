@@ -62,7 +62,7 @@
     },
     {
       "group": "Contacts - Updates - Trustee",
-      "pages": ["domainrequests/overview"]
+      "pages": ["contacts/contacts"]
     },
     {
       "group": "Balance of Funds - Reverse Webhook",
