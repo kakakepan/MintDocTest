@@ -54,7 +54,8 @@
         "domainrenewal/registrationpolicy",
         "domainrenewal/newdomainextensions",
         "domainrenewal/considerations",
-        "domainrenewal/setautorenew"
+        "domainrenewal/setautorenew",
+        "domainrenewal/emailprocessing"
       ]
     },
     {
