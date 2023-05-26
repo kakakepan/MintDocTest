@@ -1,0 +1,21 @@
+---
+title: "Scheduled Tasks"
+sidebarTitle: "Scheduled Tasks"
+---
+
+Scheduled tasks is a Superreseller dashboard feature that manages and monitors scheduled tasks. Each task has a run now button. The selected scheduled task will be executed when a reseller clicks the button.
+The comprehensive list of available types of scheduled tasks is as follows:
+
+## Inform Reseller about New Requests or Changes in Status
+"InformAboutRequests" is a task that checks for new requests or status updates in the "Request_Main_Domain" table every 5 minutes.  If there are any new requests or updated statuses, the task sends an information email to the reseller whenever a form is filled or a request's status changes. The email contains the following fields:
+| Field          | Description                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------------|
+| Item_Id        | A unique identifier for the item or task associated with the reseller's request or status update. |
+| Reseller_Name  | The name of the reseller who made the request or whose request's status has been updated.       |
+| Reseller_Email | The email address of the reseller associated with the domain-related task.                      |
+| FullDomName    | The updated domain name.                                                                      |
+| Command_Name   | The name of the command or action associated with the request or status update.                |
+| Request_Id     | The identifier of the specific request related to the item or task.                             |
+| Request_Status | The current status of the request.                                                            |
+| New_Request    | A field indicating whether the item or task represents a new request or a status update. (YES/NO)     |
+
