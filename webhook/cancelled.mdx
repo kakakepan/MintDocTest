@@ -40,3 +40,13 @@ If additional information/documentation is not required:
 When a webhook sets an item's status to **"Cancelled"** , the following action is triggered:
 - The **"Executing_Item_Status_Id"** is updated to **“Cancelled”**.
 - The **"Request_Main_Status** is updated to **“Cancelled by RSS”**.
+
+## Transfer Lock - Cancelled
+
+If a webhook sets an item's status to **"Cancelled"**, the following actions should be triggered:
+
+- | Action                   | Description                           |
+  | ------------------------ | ------------------------------------- |
+  | Executing_Item_Status_Id | is updated to **"Cancelled"**.        |
+  | Request_Main_Status      | is updated to **"Cancelled by RSS"**. |
+  | Set Transfer Lock        | should be **"Rolled back"**.          |
