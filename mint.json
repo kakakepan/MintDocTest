@@ -69,7 +69,7 @@
     },
     {
       "group": "Contacts",
-      "pages": ["contacts/contacts", "contacts/management", "contacts/change"]
+      "pages": ["contacts/contacts", "contacts/management", "contacts/changeof"]
     },
     {
       "group": "Accounting",

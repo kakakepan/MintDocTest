@@ -1,6 +1,6 @@
 ---
 title: "Change of Contact"
-sidebarTitle: "Change of Contact
+sidebarTitle: "Change of Contact"
 ---
 
 The **"Change Of Contacts"** command allows clients to change the contacts associated with a specific domain portfolio. Depending on the domain extension, a domain portfolio might be associated with one or multiple contacts.
@@ -13,7 +13,7 @@ Accessing the **"Change of Contacts"** Form:
 
 3. In the command list, select **"Change Of Contacts".** 
 
-<Note>Note: Depending on the domain extension, you might see different contact fields. This is managed by the field `**display_full_contact_data**`.</Note>
+<Note>Note: Depending on the domain extension, you might see different contact fields. This is managed by the field `display_full_contact_data`.</Note>
 
 ## Before Submission
 
@@ -46,3 +46,21 @@ If additional information or documentation is needed, the request status is set 
 - [Additional Documentation Form](https://superreseller-qa.nominus.host/forms/domains/additional/documentation)
 
 Upon adding the necessary data, the original request is updated to **"In Process"**. You also have the option to cancel the request if you're unable to provide the necessary information or documentation.
+
+In this case: 
+
+| Action                                                          | Free Extension | Paid Extension |
+| --------------------------------------------------------------- | -------------- | -------------- |
+| A processing **"Item"** is created and published in an XML page | ✔️             | ✔️             |
+| A service is created                                            | ❌              | ✔️             |
+
+### If No Additional Information/Documentation is Needed
+
+If no additional information or documentation is needed, the request status is set to **"Successful"**.
+
+In this case:
+
+| Action                                                          | Free Extension | Paid Extension |
+| --------------------------------------------------------------- | -------------- | -------------- |
+| A processing **"Item"** is created and published in an XML page | ✔️             | ✔️             |
+| A service is created                                            | ❌              | ✔️             |
