@@ -98,7 +98,7 @@
     },
     {
       "group": "Webhook",
-      "pages": ["webhook/overview", "webhook/actions"]
+      "pages": ["webhook/overview", "webhook/successfull", "webhook/sent", "webhook/cancelled", "webhook/reversed"]
     },
     {
       "group": "Validations",
