@@ -9,7 +9,7 @@ To access the **"Contacts"** option on the **"Super Reseller dashboard"**, follo
 
 1. Go to the homepage by clicking [here](https://superreseller-qa.nominus.host/).
 2. Locate the "Portfolio" option.
-3. Click on the ["Contacts" ](https://superreseller-qa.nominus.host/portfolio/contacts/)button to proceed.
+3. Click on the ["Contacts"](https://superreseller-qa.nominus.host/portfolio/contacts/)button to proceed.
 
 # CONTACT HANDLE
 
@@ -112,16 +112,13 @@ To access the Update Contact Command , follow the steps mentioned underneath:
 4. Upon selection, all fields related to the selected contact will appear for you to edit, including **"First Name"**, **"Last Name"**, and others.
 
 <Note> 📘 Essential Considerations for Contact Detail Modification:
- 
 1. **Initial Validation:** The system initiates a validation check on the current status of the domains associated with the contact you are trying to modify.
- 
 2. **Active Association Check:** If the system finds that the contact is associated with any domain that is not marked as **"Expired",** it identifies this as an active association.
- 
 3. **Error Display:** In the presence of an active association, the system displays an error message: 
    `"Command cannot be executed as there is at least one domain currently using this contact."`
- 
 4. **Avoiding Errors:** To avoid triggering this error, ensure that the contact you wish to update is not currently in use by any active domain.
 </Note>
+
 After you have filled in the form to update contact details, here's what happens:
 
 1. **Data Saving:** The system saves your request in a table akin to `Request_UpdateContact` which can be found [here](https://www.dropbox.com/s/i6qgnfkdfcomljg/TableDate%20-%20Phase%203.xlsx?dl=0).
@@ -149,16 +146,13 @@ To access the Delete Contact Command, follow the steps below:
 No additional fields will appear after you choose this command. However, after pressing **"Submit,"** you will see a warning: **"Are you sure that you want to delete this contact?" **The options **"No, please cancel"** and **"Yes, delete this contact"** will be available to respond.
 
 <Note>📘 Important Consideration for Deleting Contact:
-
- 1. **Initial Validation:** The system checks the current status of the domains associated with the contact you're trying to delete.
- 
- 2. **Active Association Check:** If the contact is associated with any domain that isn't marked as **"Expired,"** the system identifies this as an active association.
- 
- 3. **Error Display:** If there is an active association, the system will display an error message: 
+1. **Initial Validation:** The system checks the current status of the domains associated with the contact you're trying to delete.
+2. **Active Association Check:** If the contact is associated with any domain that isn't marked as **"Expired,"** the system identifies this as an active association.
+3. **Error Display:** If there is an active association, the system will display an error message: 
    `"Command cannot be executed as there is at least one domain currently using this contact."`
- 
 4. **Avoiding Errors:** To avoid this error, ensure that the contact you want to delete isn't currently used by any active domain.
 </Note>
+
 After you have filled in the form to delete a contact, the following occurs:
 
 1. **Data Saving:** The system saves your request in a table similar to `Request_DeleteContact`.
