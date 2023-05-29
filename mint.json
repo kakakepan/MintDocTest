@@ -86,7 +86,7 @@
     },
     {
       "group": "Accounting",
-      "pages": [ "accounting/overview"]
+      "pages": [ "accounting/overview", "accounting/deposit", "accounting/invoices", "accounting/statement"]
     },
     {
       "group": "Dashboard",
