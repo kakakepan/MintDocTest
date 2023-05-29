@@ -86,7 +86,7 @@
     },
     {
       "group": "Accounting",
-      "pages": [ "host/overview"]
+      "pages": [ "accounting/overview"]
     },
     {
       "group": "Dashboard",
