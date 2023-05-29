@@ -84,10 +84,12 @@ If additional information/documentation is not required:
 | Service Order Status     | is updated to **"Cancelled"** if it is not already in the **"Invoiced"** status. If the Service Order is in the **"Invoiced"** status, it remains unchanged. |
 | Domain Portfolio         | is updated with the previous contact IDs.                                                                                                                    |
 
-<Note>**General Restrictions for All Webhooks**
+<Note>
+**General Restrictions for All Webhooks**:
 There are a few important restrictions to be aware of when dealing with webhooks:
 - After a webhook is updated to **"Run successful"**, it cannot be changed to **"Sent to Provider"** or **"Cancelled"** . An error message will be displayed:  
   ` Webhook cannot be executed, **“Run Successful”** was already executed.`
 - Once a webhook has been updated to** "Cancelled"**, it cannot be changed to **"Sent to Provider"** or **"Run Successful".** An error message will be displayed:  
   `Webhook cannot be executed, **“Cancelled”** was already executed`.
-- After a webhook is updated to **"Sent to Provider"** , it can still be updated to  **"Run Successful"** or **Cancelled**.</Note>
+- After a webhook is updated to **"Sent to Provider"** , it can still be updated to  **"Run Successful"** or **Cancelled**.
+</Note>
