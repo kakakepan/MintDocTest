@@ -85,7 +85,7 @@
     },
     {
       "group": "Webhook",
-      "pages": ["webhook/overview"]
+      "pages": ["webhook/overview", "webhook/actions"]
     },
     {
       "group": "Validations",
