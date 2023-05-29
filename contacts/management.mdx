@@ -11,7 +11,7 @@ To access the **"Contacts"** option on the **"Super Reseller dashboard"**, follo
 2. Locate the "Portfolio" option.
 3. Click on the ["Contacts" ](https://superreseller-qa.nominus.host/portfolio/contacts/)button to proceed.
 
-# CONTACT HANDLE
+# Contact Handle
 
 A contact handle, also known as a handle ID, is a unique identifier assigned to a contact within the contact management system of **"Super Reseller dashboard"**. It serves as a reference or key that helps identify and distinguish individual contacts or organizations.  Contact handles are crucial for maintaining contact information, ensuring uniqueness across different contacts, and facilitating efficient retrieval and management of contact records within a system.
 
@@ -32,7 +32,7 @@ The **"Handle Id"** in the table above is generated based on the provided logic:
 - For non-organization contacts, the **"Handle Id"** format is P-WW##### (P: Prefix, W: First Name Initial, W: Last Name Initial, #: Numeric Character).
 - For organization contacts, the **"Handle Id"** format is O-WW##### (O: Prefix, W: First Two Letters of Company Name, #: Numeric Character).
 
-# DISPLAY FULL CONTACT DATA
+# Display Full Contact Data
 
 **"Display Full Contact Data"** is a field or setting that controls the behavior of the platform regarding the collection and display of contact information for domain registrations. 
 
@@ -42,7 +42,7 @@ The system prompts the user to provide contact information for all four types: O
 
 When the value of **"Display Full Contact Data"** is set to "False":
 
-Only the contact information for the "Owner Contact" is requested during the domain registration process. The other three contact types are not required and should not be requested from the user.
+Only the contact information for the **"Owner Contact"** is requested during the domain registration process. The other three contact types are not required and should not be requested from the user.
 
 Here is the table summarizing the behavior:
 
@@ -54,3 +54,27 @@ When a domain is ordered with the value of "False" for the **"Display Full Conta
 
 - Only the **"Owner Contact"** is associated and will be displayed with the domain in the portfolio.
 - The other contacts that were not requested (Admin Contact, Tech Contact, Billing Contact) will not be shown.
+
+# View Domains of a Contact
+
+The **"View Domains of a Contact"** feature refers to a functionality that allows users to retrieve a list of domain portfolios associated with a specific contact. It provides a convenient way to view all the domains that are currently utilizing a particular contact for various roles such as **"Owner"**, **"Admin"**, **"Tech"**, and **"Billing"**. This feature is beneficial for managing and organizing domain portfolios, as it allows users to quickly identify which domains are utilizing a particular contact and in which capacity. It enables users to have a comprehensive overview of the domains associated with a contact, facilitating better management and administration of domain registrations. 
+
+Here is the table to view domains associated with a contact, along with an explanation:
+
+| Domain        | Type                        |
+| :------------ | :-------------------------- |
+| example.com   | Owner                       |
+| example.net   | Owner, Tech                 |
+| example.org   | Owner, Admin, Billing       |
+| example.co.uk | Tech, Billing               |
+| example.io    | Owner, Admin                |
+| example.xyz   | Owner, Tech, Billing        |
+| example.co    | Admin, Billing              |
+| example.ai    | Owner, Admin, Tech, Billing |
+
+In this table : 
+
+**Domain**: Represents the domain name that is associated with the contact.  
+**Type**: Indicates the role in which the contact is being used for the respective domain. The types can include Owner, Admin, Tech, and/or Billing. The presence of multiple types means that the contact is used for multiple roles in the domain portfolio.
+
+Click [here](https://superreseller-qa.nominus.host/portfolio/contacts/) to navigate to **"View Domains of a Contact"**.
