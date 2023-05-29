@@ -42,7 +42,20 @@
     },
     {
       "group": "Commands",
-      "pages": ["auth/overview"]
+      "pages": ["command/overview",
+        {
+          "group": "Domain Commands",
+          "pages": [
+            "command/domain/overview", "command/domain/transferin"
+          ]
+        },
+        {
+          "group": "Contact Commands",
+          "pages": [
+            "command/contact/overview"
+          ]
+        }
+      ]
     },
     {
       "group": "Domains",
