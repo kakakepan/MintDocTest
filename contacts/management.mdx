@@ -25,9 +25,32 @@ Contact handles are typically generated according to specific logic or rules, su
 | No              | John       | Anderson  |         | P-MJ00003 |
 | Yes             |            |           | Target  | O-GO00002 |
 
-The **"Handle Id" **in the table above is generated based on the provided logic:
+The **"Handle Id"** in the table above is generated based on the provided logic:
 
 - There are two types of contact types for the **"Handle Id"** i.e. organization and non-organization.
-- The **"Is Organization" **parameter indicates if a contact is categorized as an organization or not, with "yes" for organization and "no" for non-organization.
+- The **"Is Organization"** parameter indicates if a contact is categorized as an organization or not, with "yes" for organization and "no" for non-organization.
 - For non-organization contacts, the **"Handle Id"** format is P-WW##### (P: Prefix, W: First Name Initial, W: Last Name Initial, #: Numeric Character).
 - For organization contacts, the **"Handle Id"** format is O-WW##### (O: Prefix, W: First Two Letters of Company Name, #: Numeric Character).
+
+# DISPLAY FULL CONTACT DATA
+
+**"Display Full Contact Data"** is a field or setting that controls the behavior of the platform regarding the collection and display of contact information for domain registrations. 
+
+When the value of **"Display Full Contact Data"** is set to "True":
+
+The system prompts the user to provide contact information for all four types: Owner Contact, Admin Contact, Tech Contact, and Billing Contact.
+
+When the value of **"Display Full Contact Data"** is set to "False":
+
+Only the contact information for the "Owner Contact" is requested during the domain registration process. The other three contact types are not required and should not be requested from the user.
+
+Here is the table summarizing the behavior:
+
+| Field Name                | Value is True                                            | Value is False             |
+| :------------------------ | :------------------------------------------------------- | :------------------------- |
+| display_full_contact_data | Ask for all 4 contact types: Owner, Admin, Tech, Billing | Ask for only Owner Contact |
+
+When a domain is ordered with the value of "False" for the **"Display Full Contact Data"** field:
+
+- Only the **"Owner Contact"** is associated and will be displayed with the domain in the portfolio.
+- The other contacts that were not requested (Admin Contact, Tech Contact, Billing Contact) will not be shown.
