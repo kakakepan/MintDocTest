@@ -46,7 +46,7 @@
         {
           "group": "Domain Commands",
           "pages": [
-            "command/domain/overview", "command/domain/transferin"
+            "command/domain/overview", "command/domain/transferin", "command/domain/setexp"
           ]
         },
         {
