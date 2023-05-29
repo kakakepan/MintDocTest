@@ -112,10 +112,61 @@ To access the Update Contact Command , follow the steps mentioned underneath:
 4. Upon selection, all fields related to the selected contact will appear for you to edit, including **"First Name"**, **"Last Name"**, and others.
 
 <Note>
-Essential Considerations for Contact Detail Modification:
+Important Considerations for Contact Detail Modification:
 - **Initial Validation:** The system initiates a validation check on the current status of the domains associated with the contact you are trying to modify.
 - **Active Association Check:** If the system finds that the contact is associated with any domain that is not marked as **"Expired",** it identifies this as an active association.
 - **Error Display:** In the presence of an active association, the system displays an error message: 
    `"Command cannot be executed as there is at least one domain currently using this contact."`
 - **Avoiding Errors:** To avoid triggering this error, ensure that the contact you wish to update is not currently in use by any active domain.
 </Note>
+
+After you have filled in the form to update contact details, here's what happens:
+
+1. **Data Saving:** The system saves your request in a table akin to `Request_UpdateContact` which can be found [here](https://www.dropbox.com/s/i6qgnfkdfcomljg/TableDate%20-%20Phase%203.xlsx?dl=0).
+
+2. **Request Visibility:** You can view the request at [this link](https://superreseller-qa.nominus.host/requests/contacts). 
+
+3. **Request Status:** The system automatically assigns the status **"Successful"** to your request.
+
+In addition to these, the system also triggers the following updates:
+
+- **Contact Data:** The system updates the data of the contact in the `Domain_Contacts` table. You can view the updated data [here](https://superreseller-qa.nominus.host/portfolio/contacts/).
+
+- **No Additional Processing:** The system does not create any processing **"Item" **or service.
+
+<Note>Remember, it's crucial to fill in the correct information while **"updating contact detail"** to ensure smooth processing of your request.</Note>
+
+### Delete Contact Command
+
+To access the Delete Contact Command, follow the steps below:
+
+1. Go to the **"Modify Contact"** page by clicking [here](https://superreseller-qa.nominus.host/forms/contacts/modify).
+2. Find the **"Reseller"** option.
+3. In the **"Command"** dropdown, select the **"DeleteContact"** option. 
+
+No additional fields will appear after you choose this command. However, after pressing **"Submit,"** you will see a warning: **"Are you sure that you want to delete this contact?" **The options **"No, please cancel"** and **"Yes, delete this contact"** will be available to respond.
+
+<Note>
+Important Considerations for Deleting Contact:
+- **Initial Validation:** The system initiates a validation check on the current status of the domains associated with the contact you are trying to modify.
+- **Active Association Check:** If the system finds that the contact is associated with any domain that is not marked as **"Expired",** it identifies this as an active association.
+- **Error Display:** In the presence of an active association, the system displays an error message: 
+   `"Command cannot be executed as there is at least one domain currently using this contact."`
+- **Avoiding Errors:** To avoid triggering this error, ensure that the contact you wish to update is not currently in use by any active domain.
+</Note>
+
+After you have filled in the form to delete a contact, the following occurs:
+
+1. **Data Saving:** The system saves your request in a table similar to `Request_DeleteContact`.
+
+2. **Request Visibility:** You can view the request at [this link](https://superreseller-qa.nominus.host/requests/contacts).
+
+3. **Request Status:** The system automatically assigns the status **"Successful"** to your request.
+
+Besides, the system also performs the following actions:
+
+- **Contact Data:** The data of the selected contact in the `Domain_Contacts` table is deleted. You can verify that the contact data is no longer visible [here](https://superreseller-qa.nominus.host/portfolio/contacts/).
+
+- **No Additional Processing:** The system does not create any processing **"Item"** or service.
+
+<Note>Ensure that you are careful when deleting a contact to ensure that no active domain is left without a corresponding contact.</Note>
