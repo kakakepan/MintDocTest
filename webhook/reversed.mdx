@@ -67,6 +67,11 @@ When a webhook sets an item's status to "Reversed", the following action is trig
 | Domain Portfolio            | is rolled back to the previous **“contact_id”**.                                                                                                                                                                                                                                                |
 | Service Order Status          | is updated to **“Reversed”**, If Service Order has been updated in current month. If Service Order has been updated in a previous month, will not be updated to "Reversed". Instead it will create a Credit Note.                                                                                                                                                                                                                                                |
 
+## SetExpDateForTransfer – Reversed
+When a webhook sets an item's status to **"Reversed"** , the following action is triggered:
+- The **"Executing_Item_Status_Id"** is updated to **“Reversed”**.
+- The **"Request_Main_Status** is updated to **“Reversed”**.
+
 # Credit Note
 A credit note is issued as a refund to the client for a service that has been reversed. When a webhook indicating a reversal is executed, and the corresponding service order was previously invoiced, a credit note is required for the client.
 

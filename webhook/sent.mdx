@@ -1,0 +1,43 @@
+---
+title: "Sent to Provide Webhook"
+sidebarTitle: "Sent to Provide Webhook"
+---
+
+The **"Sent to Provider"** webhook is a type of webhook that is triggered when a service request or order is successfully sent to the designated service provider for further processing. It serves as a notification mechanism to indicate that the requested service has been successfully dispatched to the provider and is awaiting their actions.
+
+When the "Sent to Provider" webhook is triggered, it typically initiates a series of actions or updates in the system to facilitate the handover of the service request. These actions can vary depending on the specific context and requirements of the service being processed. 
+
+# Sent to Provide Action list
+Here is the comprehensive list of Sent to Provide actions for each command:
+
+## Renew Domain – Sent to Provider
+
+When a webhook sets an item status to **"Sent to Provider"**, the following changes take place:
+
+- **"Executing_Item_Status_Id"** is updated to **"Sent to Provider"**.
+
+## Change Of Contact - Sent to Provider
+
+When a webhook sets an item's status to **"Sent to Provider"** , the following actions should be triggered:
+
+| Action                   | Description                           |
+| ------------------------ | ------------------------------------- |
+| Executing_Item_Status_Id | is updated to **"Sent to Provider"**. |
+| Service Order Status     | is updated to **"Sent to Provider"**. |
+
+## Change Of Contact - Cancelled
+
+When a webhook sets an item's status to **"Cancelled"** , the actions depend on whether the original request required additional information/documentation or not.
+
+If additional information/documentation is not required:
+
+| Action                   | Description                                                                                                                                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Executing_Item_Status_Id | is updated to **"Cancelled"**.                                                                                                                               |
+| Request_Main_Status      | is updated to **"Cancelled by RSS"**.                                                                                                                        |
+| Service Order Status     | is updated to **"Cancelled"** if it is not already in the **"Invoiced"** status. If the Service Order is in the **"Invoiced"** status, it remains unchanged. |
+| Domain Portfolio         | is updated with the previous contact IDs.                                                                                                                    |
+
+## SetExpDateForTransfer – Sent to Provider
+When a webhook sets an item's status to **"Sent to Provider"** , the following action is triggered:
+- The **"Executing_Item_Status_Id"** is updated to **“Sent to Provider”**.
