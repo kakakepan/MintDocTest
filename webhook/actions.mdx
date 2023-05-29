@@ -12,7 +12,7 @@ For the command **"Renew Domain"**, different statuses trigger different actions
 
 When a webhook is triggered that sets an item to **"Run Successful"**, the following actions are performed:
 
-- **Executing_Item_Status_Id **is updated to **"Run Successful"**.
+- **"Executing_Item_Status_Id"** is updated to **"Run Successful"**.
 
 ## Renew Domain – Sent to Provider
 
@@ -39,7 +39,7 @@ The **"Change Of Contact"** command also triggers different actions based on the
 
 ## Change Of Contact - Run Successful
 
-When a webhook sets an item's status to** "Run Successful"**, the actions depend on whether the original request required additional information/documentation or not.
+When a webhook sets an item's status to** "Run Successful"** , the actions depend on whether the original request required additional information/documentation or not.
 
 If additional information/documentation is not required:
 
@@ -64,7 +64,7 @@ If additional information/documentation is required and it is a paid service:
 
 ## Change Of Contact - Sent to Provider
 
-When a webhook sets an item's status to** "Sent to Provider"**, the following actions should be triggered:
+When a webhook sets an item's status to** "Sent to Provider"** , the following actions should be triggered:
 
 | Action                   | Description                           |
 | ------------------------ | ------------------------------------- |
@@ -73,7 +73,7 @@ When a webhook sets an item's status to** "Sent to Provider"**, the following ac
 
 ## Change Of Contact - Cancelled
 
-When a webhook sets an item's status to **"Cancelled",** the actions depend on whether the original request required additional information/documentation or not.
+When a webhook sets an item's status to **"Cancelled"** , the actions depend on whether the original request required additional information/documentation or not.
 
 If additional information/documentation is not required:
 
@@ -94,3 +94,32 @@ There are a few important restrictions to be aware of when dealing with webhooks
   `Webhook cannot be executed, **“Cancelled”** was already executed`.
 - After a webhook is updated to **"Sent to Provider"** , it can still be updated to  **"Run Successful"** or **Cancelled**.
 </Note>
+
+# Webhook for Transfer In
+For the command “TransferIn”, different statuses trigger different actions.
+
+## SetExpDateForTransfer - Run Successful
+When a webhook triggered, it sets an item status to "Run Sucessful", the actions depends on whether the original request was from an extension that required or not additional information/documentation. For example:
+
+| Action                        | Description                                                                                                                                                                                                                                                                    |
+| :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Executing_Item_Status_Id      | is updated to **“Run Succesful"**.                                                                                                                                                                                                                                             |
+| Request_Main_Status           | is updated to **“Successful”**.                                                                                                                                                                                                                                                |
+| Domain_Status_Id              | is updated to **“Registered”**.                                                                                                                                                                                                                                                |
+| Service Order Status          | is updated to **“Invoiced”**.                                                                                                                                                                                                                                                  |
+| Expiration date of the domain | is calculated in the following way: Add the minimal number of **"registration periods"** for that extension to the date entered with the **"SetExpDateForTransfer"** command, and then modify according to the **"Expiration Policy"** described in **"Domain Registration"**. |
+
+## SetExpDateForTransfer – Sent to Provider
+When a webhook sets an item's status to **"Sent to Provider"** , the following action is triggered:
+- The **"Executing_Item_Status_Id"** is updated to **“Sent to Provider”**.
+
+## SetExpDateForTransfer – Cancelled
+When a webhook sets an item's status to **"Cancelled"** , the following action is triggered:
+- The **"Executing_Item_Status_Id"** is updated to **“Cancelled”**.
+- The **"Request_Main_Status** is updated to **“Cancelled by RSS”**.
+
+## SetExpDateForTransfer – Reversed
+When a webhook sets an item's status to **"Reversed"** , the following action is triggered:
+- The **"Executing_Item_Status_Id"** is updated to **“Reversed”**.
+- The **"Request_Main_Status** is updated to **“Reversed”**.
+
