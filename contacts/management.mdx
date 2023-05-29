@@ -74,7 +74,47 @@ Here is the table to view domains associated with a contact, along with an expla
 
 In this table : 
 
-**Domain**: Represents the domain name that is associated with the contact.  
-**Type**: Indicates the role in which the contact is being used for the respective domain. The types can include Owner, Admin, Tech, and/or Billing. The presence of multiple types means that the contact is used for multiple roles in the domain portfolio.
+- **Domain**: Represents the domain name that is associated with the contact.  
+- **Type**: Indicates the role in which the contact is being used for the respective domain. The types can include Owner, Admin, Tech, and/or Billing. The presence of multiple types means that the contact is used for multiple roles in the domain portfolio.
 
 Click [here](https://superreseller-qa.nominus.host/portfolio/contacts/) to navigate to **"View Domains of a Contact"**.
+
+# Modify a Contact
+
+The process of modifying **"contacts and commands"** of a domain involves making changes to the contact and command information associated with a particular domain name registration. This functionality allows domain owners or administrators to update and manage the contact details.
+
+To access **"Modify Contact"** page using the **"Super Reseller dashboard"**, follow the steps outlined below:
+
+1. Go to the homepage by clicking [here](https://superreseller-qa.nominus.host/).
+2. Locate the **"Reseller"** option.
+3. Click on the ["Contacts" ](https://superreseller-qa.nominus.host/portfolio/contacts/) button.
+
+This will lead to the category of contacts. The provided table enhances readability and organization of contacts, offering a clear and concise view of the interface of contacts. It simplifies the process for users to select the desired reseller, choose the contact handle, and quickly reference the associated information for modification of contact.
+
+| Contact Handle Id of reseller | Info Fields                           |
+| :---------------------------- | :------------------------------------ |
+| Contact Handle ID 1           | (First Name, Last Name, Company Name) |
+| Contact Handle ID 2           | (First Name, Last Name, Company Name) |
+
+4. Navigate to the **"Command"** option to proceed.
+
+## Command
+
+The **"Command"** option streamlines the selection process and facilitates the issuing of the appropriate commands for modifying domain contacts.
+
+### Update Contact Command
+
+To access the Update Contact Command , follow the steps mentioned underneath:
+
+1. Navigate to the **"Modify Contact" **page by clicking [here](https://superreseller-qa.nominus.host/forms/contacts/modify).
+2. Locate the **"Reseller"** option.
+3. In the **"Command"** dropdown, select the **“Update Contact”** option. 
+4. Upon selection, all fields related to the selected contact will appear for you to edit, including **"First Name"**, **"Last Name"**, and others.
+
+<Note>📘 Essential Considerations for Contact Detail Modification:
+1. **Initial Validation:** The system initiates a validation check on the current status of the domains associated with the contact you are trying to modify.
+2. **Active Association Check:** If the system finds that the contact is associated with any domain that is not marked as **"Expired",** it identifies this as an active association.
+3. **Error Display:** In the presence of an active association, the system displays an error message: 
+   `"Command cannot be executed as there is at least one domain currently using this contact."`
+4. **Avoiding Errors:** To avoid triggering this error, ensure that the contact you wish to update is not currently in use by any active domain.
+</Note>
