@@ -103,7 +103,14 @@
     },
     {
       "group": "API",
-      "pages": ["apilimit/overview", "domainrenewal/returncode"]
+      "pages": ["apilimit/overview",
+        {
+          "group": "Domain Endpoints",
+          "pages": [
+            "apilimit/domain/renew"
+          ]
+        },
+      "domainrenewal/returncode"]
     },
     {
       "group": "Webhook",
