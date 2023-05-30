@@ -108,7 +108,8 @@
           "group": "Domain Endpoints",
           "pages": [
             "apilimit/domain/renew",
-            "apilimit/domain/transfer"
+            "apilimit/domain/transfer",
+            "apilimit/domain/field"
           ]
         },
       "domainrenewal/returncode"]
