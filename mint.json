@@ -118,7 +118,8 @@
           "group": "Contact Endpoints",
           "pages": [
             "apilimit/contact/check",
-            "apilimit/contact/status"
+            "apilimit/contact/status",
+            "apilimit/contact/create"
           ]
         },
       "domainrenewal/returncode"]
