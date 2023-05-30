@@ -78,7 +78,7 @@
             "domainrenewal/scheduledtasks"
           ]
         },
-        "domain/blocked"
+        "domain/blocked", "domain/trustee"
       ]
     },
     {
