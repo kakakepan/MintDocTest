@@ -3,9 +3,7 @@ title: "RenewDomain"
 sidebarTitle: "RenewDomain"
 ---
 
-This endpoint provides a command to renew a domain name.
-
-By calling this endpoint, users can renew their domain name and extend its registration period.
+The RenewDomain endpoint is an API endpoint used for renewing a domain registration. It allows you to extend the registration period of a domain name for a specified number of years. 
 
 ## Parameters
 The following is a list of parameters for the RenewDomain endpoint:
@@ -16,7 +14,7 @@ The following is a list of parameters for the RenewDomain endpoint:
 
 ## Example Request
 The following is the example request for the RenewDomain endpoint:
-```
+```json
 {
   "number_of_years": 1,
   "accept_late_renewal_fee": true
@@ -35,7 +33,7 @@ The following is a list of the user attributes for the RenewDomain endpoint:
 
 ## Example response
 The following is the example object returned by the `RenewDomain` endpoint:
-```
+```json
 {
   "code": 200,
   "description": "Command completed successfully",
