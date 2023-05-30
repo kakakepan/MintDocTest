@@ -109,7 +109,8 @@
           "pages": [
             "apilimit/domain/renew",
             "apilimit/domain/transfer",
-            "apilimit/domain/field"
+            "apilimit/domain/field",
+            "apilimit/domain/status"
           ]
         },
       "domainrenewal/returncode"]
