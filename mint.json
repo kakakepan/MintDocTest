@@ -110,6 +110,7 @@
             "apilimit/domain/renew",
             "apilimit/domain/transfer",
             "apilimit/domain/field",
+            "apilimit/domain/docs",
             "apilimit/domain/status"
           ]
         },
