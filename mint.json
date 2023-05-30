@@ -119,7 +119,9 @@
           "pages": [
             "apilimit/contact/check",
             "apilimit/contact/status",
-            "apilimit/contact/create"
+            "apilimit/contact/create",
+            "apilimit/contact/update",
+            "apilimit/contact/delete"
           ]
         },
       "domainrenewal/returncode"]
