@@ -114,6 +114,13 @@
             "apilimit/domain/status"
           ]
         },
+        {
+          "group": "Contact Endpoints",
+          "pages": [
+            "apilimit/contact/check",
+            "apilimit/contact/status"
+          ]
+        },
       "domainrenewal/returncode"]
     },
     {
