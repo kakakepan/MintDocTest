@@ -46,7 +46,14 @@
         {
           "group": "Domain Commands",
           "pages": [
-            "command/domain/overview", "command/domain/transferin", "command/domain/setexp", "command/domain/lock"
+            "command/domain/overview",
+            "command/domain/transferin",
+            "command/domain/setexp",
+            "command/domain/lock",
+            "command/domain/updatelock",
+            "command/domain/renewallock",
+            "command/domain/deletelock",
+            "command/domain/clienthold"
           ]
         },
         {
