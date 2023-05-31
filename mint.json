@@ -62,6 +62,14 @@
           "pages": [
             "command/contact/overview"
           ]
+        },
+        {
+          "group": "Host Commands",
+          "pages": [
+            "command/host/overview",
+            "command/host/create",
+            "command/host/modify"
+          ]
         }
       ]
     },
@@ -94,12 +102,12 @@
       "pages": ["contacts/contacts", "contacts/management", "contacts/changeof"]
     },
     {
-      "group": "Accounting",
-      "pages": [ "accounting/overview", "accounting/deposit", "accounting/invoices", "accounting/statement"]
+      "group": "Hosts",
+      "pages": ["hosts/overview"]
     },
     {
-      "group": "Dashboard",
-      "pages": ["account/overview"]
+      "group": "Accounting",
+      "pages": [ "accounting/overview", "accounting/deposit", "accounting/invoices", "accounting/statement"]
     },
     {
       "group": "API",
