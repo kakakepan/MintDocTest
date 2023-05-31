@@ -94,7 +94,7 @@
             "domainrenewal/scheduledtasks"
           ]
         },
-        "domain/blocked", "domain/trustee"
+        "domain/blocked", "domain/pending", "domain/trustee"
       ]
     },
     {
