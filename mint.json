@@ -139,8 +139,8 @@
       "pages": ["webhook/overview", "webhook/successfull", "webhook/sent", "webhook/cancelled", "webhook/reversed"]
     },
     {
-      "group": "Validations",
-      "pages": ["dashboard/overview"]
+      "group": "Dashboard",
+      "pages": ["dashboard/overview", "dashboard/account", "dashboard/pass", "dashboard/balance"]
     }
   ],
   "footerSocials": {
