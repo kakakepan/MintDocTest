@@ -115,7 +115,7 @@
         {
           "group": "Superreseller Endpoints",
           "pages": [
-            "apilimit/endpoint.mdx",
+            "apilimit/endpoint",
             {
               "group": "Domain Endpoints",
               "pages": [
