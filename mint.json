@@ -142,7 +142,7 @@
     },
     {
       "group": "Webhook",
-      "pages": ["webhook/overview", "webhook/successfull", "webhook/sent", "webhook/cancelled", "webhook/reversed"]
+      "pages": ["webhook/overview", "webhook/successfull", "webhook/sent", "webhook/cancelled", "webhook/reversed", "webhook/post"]
     },
     {
       "group": "Dashboard",
