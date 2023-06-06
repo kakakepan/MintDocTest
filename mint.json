@@ -138,7 +138,7 @@
             }
           ]
         },
-        "apilimit/management","domainrenewal/requestlogs", "domainrenewal/returncode"]
+        "apilimit/management","apilimit/requestlogs", "domainrenewal/returncode"]
     },
     {
       "group": "Webhook",
