@@ -155,7 +155,7 @@
           "group": "Additional Fields",
           "pages": [ "dashboard/additionalfield", "dashboard/multiuse"]
         },
-      "dashboard/pass", "dashboard/balance", "dashboard/portfolio"]
+      "dashboard/pass", "dashboard/balance", "dashboard/portfolio","dashboard/validation"]
     }
   ],
   "footerSocials": {
