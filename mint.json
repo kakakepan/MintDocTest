@@ -94,7 +94,7 @@
             "domainrenewal/scheduledtasks"
           ]
         },
-        "domain/status","domain/blocked", "domain/pending", "domain/trustee"
+        "domain/status","domain/blocked", "domain/pending", "domain/trustee", "domain/handle"
       ]
     },
     {
@@ -138,7 +138,7 @@
             }
           ]
         },
-        "apilimit/management","domainrenewal/returncode"]
+        "apilimit/management","domainrenewal/requestlogs", "domainrenewal/returncode"]
     },
     {
       "group": "Webhook",
@@ -155,7 +155,7 @@
           "group": "Additional Fields",
           "pages": [ "dashboard/additionalfield", "dashboard/multiuse"]
         },
-      "dashboard/pass", "dashboard/balance", "dashboard/portfolio","dashboard/validations"]
+      "dashboard/pass", "dashboard/balance", "dashboard/portfolio","dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
     }
   ],
   "footerSocials": {
