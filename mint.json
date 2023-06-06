@@ -146,7 +146,12 @@
     },
     {
       "group": "Dashboard",
-      "pages": ["dashboard/overview", "dashboard/account", "dashboard/pass", "dashboard/balance", "dashboard/portfolio"]
+      "pages": ["dashboard/overview", 
+        {
+          "group": "Account",
+          "pages": [ "dashboard/account", "dashboard/useraccount"]
+        },
+      "dashboard/account", "dashboard/pass", "dashboard/balance", "dashboard/portfolio"]
     }
   ],
   "footerSocials": {
