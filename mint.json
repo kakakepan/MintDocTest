@@ -149,13 +149,9 @@
       "pages": ["dashboard/overview", 
         {
           "group": "Account",
-          "pages": [ "dashboard/accountoverview","dashboard/account", "dashboard/useraccount"]
+          "pages": [ "dashboard/accountoverview","dashboard/account", "dashboard/useraccount", "dashboard/balance"]
         },
-        {
-          "group": "Additional Fields",
-          "pages": [ "dashboard/additionalfield", "dashboard/multiuse"]
-        },
-      "dashboard/pass", "dashboard/balance", "dashboard/portfolio","dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
+        "dashboard/multiuse", "dashboard/pass", "dashboard/portfolio", "dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
     }
   ],
   "footerSocials": {
