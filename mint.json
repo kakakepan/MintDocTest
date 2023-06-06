@@ -101,10 +101,6 @@
       "pages": ["contacts/contacts", "contacts/management", "contacts/changeof"]
     },
     {
-      "group": "Hosts",
-      "pages": ["hosts/request"]
-    },
-    {
       "group": "Accounting",
       "pages": [ "accounting/overview", "accounting/deposit", "accounting/invoices", "accounting/statement"]
     },
@@ -150,7 +146,7 @@
           "group": "Account",
           "pages": [ "dashboard/accountoverview","dashboard/account", "dashboard/useraccount", "dashboard/balance"]
         },
-        "dashboard/multiuse", "dashboard/pass", "dashboard/portfolio", "dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
+        "hosts/request", "dashboard/multiuse", "dashboard/pass", "dashboard/portfolio", "dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
     }
   ],
   "footerSocials": {
