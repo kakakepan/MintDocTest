@@ -46,7 +46,6 @@
         {
           "group": "Domain Commands",
           "pages": [
-            "command/domain/overview",
             "command/domain/transferin",
             "command/domain/setexp",
             "command/domain/lock",
@@ -60,13 +59,13 @@
         {
           "group": "Contact Commands",
           "pages": [
-            "command/contact/overview"
+            "command/contact/create",
+            "command/contact/modify"
           ]
         },
         {
           "group": "Host Commands",
           "pages": [
-            "command/host/overview",
             "command/host/create",
             "command/host/modify"
           ]
