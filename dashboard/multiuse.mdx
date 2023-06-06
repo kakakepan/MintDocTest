@@ -1,0 +1,64 @@
+---
+title: "MULTIUSE"
+sidebarTitle: "MULTIUSE"
+---
+
+The **"MULTIUSE"- ADDITIONAL FIELDS TYPE"** allows fields to be reused for different domain requests, saving time and effort. The features offered by **"Additional Field Type- Misuse"** are listed in the following table:
+
+| Features of Additional Field Type- Misuse | Description                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Field Reusability                         | Yes                                                                                                                                                                                                                                                                                                                                          |
+| Reusability Criteria                      | The field must be marked as **"MULTIUSE: Yes"**.                                                                                                                                                                                                                                                                                             |
+| Reusing Field Data                        | When a reseller provides a value for a specific additional field marked as **"MULTIUSE: Yes"**,  such as the**" Owner's Passport / Id Number"**, that value can be reused for future domains that require the same additional field.                                                                                                          |
+| Condition for Reuse                       | The owner profile must remain the same for future domains.                                                                                                                                                                                                                                                                                   |
+| Benefits of Field Reusability             | It saves time and effort by eliminating the need to request the same additional field data multiple times for the same owner profile. Streamlines the domain registration or transfer process by reusing existing additional field data. Reduces data duplication and ensures consistency across domain requests for the same owner profile. |
+
+## Saving Additional Field Type-Multiuse Data at Contact Level
+
+Saving **"Additional Field Type- Multiuse"** Data at the contact level offers significant advantages for handling domain requests. It ensures the availability and consistency of additional field data associated with the contact's profile, promoting accuracy and data integrity. It eliminates redundancy, ensures data availability, and enhances the efficiency of managing domain requests by offering the following functionalities:
+
+1. **Data Storage**  
+   When an additional field with the **"MULTIUSE"** type is provided for a domain request, the data is saved at the contact level.
+2. **Stored Data**  
+   For example, if a reseller provides a passport number or company number for the **"Owner's Passport / Id Number"** field, this data will be stored in the contact's profile.
+3. **Data Availability**  
+   The stored additional field data is accessible for future domain requests associated with the same contact.
+
+## Updating Pending Domain Requests
+
+When a reseller provides an **"Additional field type-Multiuse"** value for contact with **"pending domain requests"**, the system seamlessly updates the requests with the new information. This automatic process ensures that all **"pending domain requests"** associated with the contact are synchronized with the latest **"Additional field type-Multiuse"** data. 
+
+1. **Streamlined Management Process:** The system automates updating pending domain requests, eliminating the need for manual intervention and reducing administrative burden.
+2. **Real-time Access to Latest Information:** Resellers have immediate access to the most up-to-date information for each request, allowing for efficient handling and decision-making.
+3. **Data Consistency:** By ensuring that all pending requests reflect the latest additional field data, the system helps maintain data consistency across the platform.
+
+**Example Scenario:**
+
+- Let's consider a situation where there are ten **"pending domain requests**" that require the passport number for contact P-JM00001. 
+- When the reseller provides the passport number for this contact, the system promptly updates all ten domain requests with the newly provided information.
+- This automatic **"Updating Pending Domain Requests"** process of  **"Additional field type-Multiuse"** eliminates the need for manual updates, ensuring that the pending requests accurately reflect the most current additional field data.
+
+## Domain Request Status
+
+When using the **"Register Domain"** or **"Transfer In Domain"** commands for an extension that triggers an **"Additional field type-Multiuse"**, the domain request status will be affected based on the presence of the additional field in the owner's profile in the following ways:
+
+| Condition                                                                  | Domain Request Status   |
+| -------------------------------------------------------------------------- | ----------------------- |
+| Owner's profile includes the required Additional field type- Misuse        | "In Process" (Code 201) |
+| Owner's profile does not include the required Additional field type-Misuse | "Pending" (Code 202)    |
+
+## API Queries
+
+For API queries related to contact information, such as **"Status Contact"** and **"Update Contact"**, the **"Additional fields marked as "MULTIUSE""** will be made visible. This ensures that resellers can access and manage the additional field data when interacting with contact information through API requests.
+
+## Modifying Contacts
+
+To modify contacts using the **Additional fields type- MULTIUSE** in the Super Reseller platform, follow these steps:
+
+1. Locate the contact modification form by clicking [here](https://superreseller-qa.nominus.host/forms/contacts/modify).
+2. In the contact details, locate the "**Additional Fields"** section.
+3. The **Additional fields marked as "MULTIUSE"** will be visible if previously added to the contact. 
+4. Identify the **Additional field marked as "MULTIUSE"** that you wish to modify.
+5. Make the necessary changes to the additional field data.
+6. Save the modifications to update the contact's **Additional field type-Multiuse**.
+7. Review the updated contact details to verify that the modifications have been successfully applied.
