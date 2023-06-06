@@ -102,7 +102,7 @@
     },
     {
       "group": "Hosts",
-      "pages": ["hosts/overview", "hosts/request"]
+      "pages": ["hosts/request"]
     },
     {
       "group": "Accounting",
