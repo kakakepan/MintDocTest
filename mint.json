@@ -155,11 +155,7 @@
         "hosts/request", "dashboard/multiuse", "dashboard/pass", "dashboard/portfolio", "dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Superreseller Endpoints",
       "pages": [
         "api-reference/endpoint/checkdomain",
         "api-reference/endpoint/checkdomainstatus",
@@ -169,6 +165,9 @@
         "api-reference/endpoint/renewalsdomain",
         "api-reference/endpoint/checkcontact",
         "api-reference/endpoint/checkcontactstatus",
+        "api-reference/endpoint/createcontact",
+        "api-reference/endpoint/updatecontact",
+        "api-reference/endpoint/deletecontact",
         "api-reference/endpoint/pendingdomain",
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
