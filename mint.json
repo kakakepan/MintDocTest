@@ -167,12 +167,13 @@
           "api-reference/endpoint/renewalsdomain",
           {
             "group": "Modify Domain Endpoints",
-            "pages": [ "api-reference/endpoint/checkdomain",
-            "api-reference/endpoint/checkdomainstatus",
-            "api-reference/endpoint/registerdomain",
-            "api-reference/endpoint/registerdomainwith",
-            "api-reference/endpoint/transferin",
-            "api-reference/endpoint/renewalsdomain"]
+            "pages": [ "api-reference/endpoint/updatedns",
+            "api-reference/endpoint/updatecontactname",
+            "api-reference/endpoint/changetransferlock",
+            "api-reference/endpoint/changeupdatelock",
+            "api-reference/endpoint/changedeletelock",
+            "api-reference/endpoint/changerenewallock",
+            "api-reference/endpoint/changeclienthold"]
           }]
         },
         {
