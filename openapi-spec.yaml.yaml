@@ -51,28 +51,19 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
@@ -3142,6 +3133,39 @@ components:
           type: string
           description: Description
           example: Domain Available
+    400Response:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: API Return Code
+          example: 541
+        description:
+          type: string
+          description: Error Description
+          example: Invalid attribute value
+    401Response:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: API Return Code
+          example: 530
+        description:
+          type: string
+          description: Error Description
+          example: Authentication failed
+    402Response:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: API Return Code
+          example: 546
+        description:
+          type: string
+          description: Error Description
+          example: Credit limit exceeded
     ErrorResponse:
       type: object
       properties:
