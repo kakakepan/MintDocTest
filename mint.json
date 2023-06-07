@@ -167,6 +167,8 @@
         "api-reference/endpoint/registerdomainwith",
         "api-reference/endpoint/transferin",
         "api-reference/endpoint/renewalsdomain",
+        "api-reference/endpoint/checkcontact",
+        "api-reference/endpoint/checkcontactstatus",
         "api-reference/endpoint/pendingdomain",
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
