@@ -3172,36 +3172,45 @@ components:
         code:
           type: integer
           description: API Return Code
+          example: 545
         description:
           type: string
           description: Error Description
+          example: Entity reference not found
     409Response:
       type: object
       properties:
         code:
           type: integer
           description: API Return Code
+          example: 502
         description:
           type: string
           description: Error Description
+          example: Command cannot be executed for the domain as it is not an
+              active domain
     429Response:
       type: object
       properties:
         code:
           type: integer
           description: API Return Code
+          example: 547
         description:
           type: string
           description: Error Description
+          example: API request rate limit exceeded
     500Response:
       type: object
       properties:
         code:
           type: integer
           description: API Return Code
+          example: 420
         description:
           type: string
           description: Error Description
+          example: Command failed due to server error
     ErrorResponse:
       type: object
       properties:
