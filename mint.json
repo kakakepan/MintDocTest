@@ -35,6 +35,12 @@
       "url": "https://www.marcaria.com/ws/en/contact-us"
     }
   ],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "navigation": [
     {
       "group": "Welcome",
@@ -147,6 +153,20 @@
           "pages": [ "dashboard/accountoverview","dashboard/account", "dashboard/useraccount", "dashboard/balance"]
         },
         "hosts/request", "dashboard/multiuse", "dashboard/pass", "dashboard/portfolio", "dashboard/validations", "dashboard/commandstatus", "dashboard/private"]
+    },
+    {
+      "group": "API Documentation",
+      "pages": ["api-reference/authentication"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/checkdomain",
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/update",
+        "api-reference/endpoint/delete"
+      ]
     }
   ],
   "footerSocials": {
