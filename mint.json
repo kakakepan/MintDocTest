@@ -157,17 +157,32 @@
     {
       "group": "Superreseller Endpoints",
       "pages": [
-        "api-reference/endpoint/checkdomain",
-        "api-reference/endpoint/checkdomainstatus",
-        "api-reference/endpoint/registerdomain",
-        "api-reference/endpoint/registerdomainwith",
-        "api-reference/endpoint/transferin",
-        "api-reference/endpoint/renewalsdomain",
-        "api-reference/endpoint/checkcontact",
-        "api-reference/endpoint/checkcontactstatus",
-        "api-reference/endpoint/createcontact",
-        "api-reference/endpoint/updatecontact",
-        "api-reference/endpoint/deletecontact",
+        {
+          "group": "Domain Endpoints",
+          "pages": [ "api-reference/endpoint/checkdomain",
+          "api-reference/endpoint/checkdomainstatus",
+          "api-reference/endpoint/registerdomain",
+          "api-reference/endpoint/registerdomainwith",
+          "api-reference/endpoint/transferin",
+          "api-reference/endpoint/renewalsdomain",
+          {
+            "group": "Modify Domain Endpoints",
+            "pages": [ "api-reference/endpoint/checkdomain",
+            "api-reference/endpoint/checkdomainstatus",
+            "api-reference/endpoint/registerdomain",
+            "api-reference/endpoint/registerdomainwith",
+            "api-reference/endpoint/transferin",
+            "api-reference/endpoint/renewalsdomain"]
+          }]
+        },
+        {
+          "group": "Contact Endpoints",
+          "pages": [ "api-reference/endpoint/checkcontact",
+          "api-reference/endpoint/checkcontactstatus",
+          "api-reference/endpoint/createcontact",
+          "api-reference/endpoint/updatecontact",
+          "api-reference/endpoint/deletecontact"]
+        },
         "api-reference/endpoint/pendingdomain",
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
