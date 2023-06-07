@@ -173,7 +173,11 @@
             "api-reference/endpoint/changeupdatelock",
             "api-reference/endpoint/changedeletelock",
             "api-reference/endpoint/changerenewallock",
-            "api-reference/endpoint/changeclienthold"]
+            "api-reference/endpoint/changeclienthold",
+            "api-reference/endpoint/privateregis",
+            "api-reference/endpoint/changeautorenew",
+            "api-reference/endpoint/changeauth",
+            "api-reference/endpoint/deletecontactdomain"]
           }]
         },
         {
