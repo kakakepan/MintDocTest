@@ -195,6 +195,18 @@
           "api-reference/endpoint/createcontact",
           "api-reference/endpoint/updatecontact",
           "api-reference/endpoint/deletecontact"]
+        },
+        {
+          "group": "Pending Requests Endpoints",
+          "pages": [ "api-reference/endpoint/pendingdomain",
+          "api-reference/endpoint/addpendingadditionalinformation",
+          "api-reference/endpoint/addpendingadditionaldocumentation"]
+
+        },
+        {
+          "group": "Requests Endpoints",
+          "pages": [ "api-reference/endpoint/retrieverequestchangelog",
+          "api-reference/endpoint/retrieverequeststatus"]
         }
       ]
     }
