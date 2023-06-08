@@ -460,34 +460,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -496,7 +487,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -505,7 +496,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -514,7 +505,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -549,34 +540,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -585,7 +567,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -594,7 +576,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -603,7 +585,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -756,34 +738,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -792,7 +765,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -801,7 +774,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -810,7 +783,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -845,34 +818,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -881,7 +845,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -890,7 +854,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -899,7 +863,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -1289,34 +1253,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -1325,7 +1280,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -1334,7 +1289,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -1343,7 +1298,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -1382,34 +1337,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -1418,7 +1364,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -1427,7 +1373,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -1436,7 +1382,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -1558,34 +1504,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -1594,7 +1531,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -1603,7 +1540,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -1612,7 +1549,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -1653,34 +1590,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -1689,7 +1617,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -1698,7 +1626,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -1707,7 +1635,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error
@@ -1741,34 +1669,25 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 541
-                description: Invalid attribute value
+                $ref: '#/components/schemas/400Response'
         "401":
           description: 401 Unauthorized
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 530
-                description: Authentication failed
+                $ref: '#/components/schemas/401Response'
         "402":
           description: 402 Payment Required
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              example:
-                code: 546
-                description: Credit limit exceeded
+                $ref: '#/components/schemas/402Response'
         "404":
           description: 404 Not Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/404Response'
               example:
                 code: 545
                 description: Entity reference not found
@@ -1777,7 +1696,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/409Response'
               example:
                 code: 502
                 description: Command cannot be executed for the domain as it is not an active domain
@@ -1786,7 +1705,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/429Response'
               example:
                 code: 547
                 description: API request rate limit exceeded
@@ -1795,7 +1714,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: '#/components/schemas/500Response'
               example:
                 code: 420
                 description: Command failed due to server error

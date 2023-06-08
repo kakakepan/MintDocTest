@@ -166,7 +166,7 @@
           "api-reference/endpoint/transferin",
           "api-reference/endpoint/renewalsdomain",
           {
-            "group": "Modify Domain Endpoints",
+            "group": "Domain: ModifyDomain Endpoints",
             "pages": [ "api-reference/endpoint/updatedns",
             "api-reference/endpoint/updatecontactname",
             "api-reference/endpoint/changetransferlock",
@@ -178,6 +178,14 @@
             "api-reference/endpoint/changeautorenew",
             "api-reference/endpoint/changeauth",
             "api-reference/endpoint/deletecontactdomain"]
+          },
+          {
+            "group": "Domain: Hosts Endpoints",
+            "pages": [ "api-reference/endpoint/checkhostavailability",
+            "api-reference/endpoint/checkhoststatus",
+            "api-reference/endpoint/updatehost",
+            "api-reference/endpoint/createnewhost",
+            "api-reference/endpoint/deletehost"]
           }]
         },
         {
@@ -188,7 +196,18 @@
           "api-reference/endpoint/updatecontact",
           "api-reference/endpoint/deletecontact"]
         },
-        "api-reference/endpoint/pendingdomain"
+        {
+          "group": "Pending Requests Endpoints",
+          "pages": [ "api-reference/endpoint/retrievependingadditionalinformationanddocumentation",
+          "api-reference/endpoint/addpendingadditionalinformation",
+          "api-reference/endpoint/addpendingadditionaldocumentation"]
+
+        },
+        {
+          "group": "Requests Endpoints",
+          "pages": [ "api-reference/endpoint/retrieverequestchangelog",
+          "api-reference/endpoint/retrieverequeststatus"]
+        }
       ]
     }
   ],
