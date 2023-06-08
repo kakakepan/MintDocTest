@@ -112,34 +112,7 @@
     },
     {
       "group": "API",
-      "pages": ["apilimit/overview",
-        {
-          "group": "Superreseller Endpoints",
-          "pages": [
-            "apilimit/endpoint",
-            {
-              "group": "Domain Endpoints",
-              "pages": [
-                "apilimit/domain/renew",
-                "apilimit/domain/transfer",
-                "apilimit/domain/field",
-                "apilimit/domain/docs",
-                "apilimit/domain/status"
-              ]
-            },
-            {
-              "group": "Contact Endpoints",
-              "pages": [
-                "apilimit/contact/check",
-                "apilimit/contact/status",
-                "apilimit/contact/create",
-                "apilimit/contact/update",
-                "apilimit/contact/delete"
-              ]
-            }
-          ]
-        },
-        "apilimit/management","apilimit/requestlogs", "domainrenewal/returncode"]
+      "pages": ["apilimit/overview", "apilimit/management","apilimit/requestlogs", "domainrenewal/returncode"]
     },
     {
       "group": "Webhook",
