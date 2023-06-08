@@ -198,7 +198,7 @@
         },
         {
           "group": "Pending Requests Endpoints",
-          "pages": [ "api-reference/endpoint/retrievependingadditionalinformationanddocumentation",
+          "pages": [ "api-reference/endpoint/pendingdomain",
           "api-reference/endpoint/addpendingadditionalinformation",
           "api-reference/endpoint/addpendingadditionaldocumentation"]
 
