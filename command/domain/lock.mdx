@@ -35,12 +35,3 @@ To set the Transfer Lock for a domain, follow these steps:
 
 Before submitting the form, a validation check ensures that there are no previous requests for the "**Set Transfer Lock"** command for the same domain within the last 10 minutes. If a previous request is found, the following error will be displayed:  
 `"Command cannot be executed as there is a previous request for this command that is in process."`
-
-## After Form Submission
-
-Once the form is submitted, the following actions will take place:
-
-- The request will be saved and recorded in a table called **"Request_SetTransferLock."** You can view all requests by clicking [here](https://superreseller-qa.nominus.host/requests/domain).
-- The request will have a status of **"Successful"** since the command's "**Assume_Success"** field is set to **"Yes"**.
-- The **"Transfer Lock"** field of the domain portfolio will be updated with the value entered by the user.
-- A processing **"Item"** will be created, which will be published in an XML page.
