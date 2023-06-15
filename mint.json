@@ -72,6 +72,8 @@
             "command/contact/create",
             "command/contact/modify",
             "command/contact/check",
+            "command/contact/status",
+            "command/contact/update",
             "contacts/changeof"
           ]
         },
