@@ -85,7 +85,8 @@
             "command/host/modify",
             "command/host/check",
             "command/host/status",
-            "command/host/update"
+            "command/host/update",
+            "command/host/delete"
           ]
         }
       ]
