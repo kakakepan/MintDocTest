@@ -59,7 +59,9 @@
             "command/domain/renewallock",
             "command/domain/deletelock",
             "command/domain/clienthold",
-            "command/domain/authcode"
+            "command/domain/addfields",
+            "command/domain/adddocs",
+            "command/domain/statusdomain"
           ]
         },
         {
