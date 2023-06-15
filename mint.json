@@ -66,7 +66,8 @@
           "group": "Contact Commands",
           "pages": [
             "command/contact/create",
-            "command/contact/modify"
+            "command/contact/modify",
+            "contacts/changeof"
           ]
         },
         {
@@ -104,7 +105,7 @@
     },
     {
       "group": "Contacts",
-      "pages": ["contacts/contacts", "contacts/management", "contacts/changeof"]
+      "pages": ["contacts/contacts", "contacts/management"]
     },
     {
       "group": "Accounting",
