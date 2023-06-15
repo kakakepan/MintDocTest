@@ -71,6 +71,7 @@
           "pages": [
             "command/contact/create",
             "command/contact/modify",
+            "command/contact/check",
             "contacts/changeof"
           ]
         },
