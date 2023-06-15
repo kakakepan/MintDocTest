@@ -82,7 +82,9 @@
           "group": "Host Commands",
           "pages": [
             "command/host/create",
-            "command/host/modify"
+            "command/host/modify",
+            "command/host/check",
+            "command/host/status"
           ]
         }
       ]
